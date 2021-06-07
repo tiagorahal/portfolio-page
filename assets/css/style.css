@@ -79,7 +79,7 @@ main {
 }
 
 #text-top {
-  font-size: 1.6em;
+  font-size: 2em;
 }
 
 #figure-main-top-div {
@@ -96,13 +96,13 @@ main {
 
 
 #main-top-image {
-  width: auto;
-  height: 400px;
+  border-radius: 50%;
   transition: all 1s;
 }
 
 #title-text-main-top {
   transition: all 1s;
+  font-size: 3em;
 }
 
 #title-text-main-top:hover {
