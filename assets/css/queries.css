@@ -10,8 +10,8 @@
     align-items: center;
   }
 
-  #main-top-image {
-    padding-top: 30px;
+  #figure-main-top-div {
+    padding-top: 20px;
   }
 
 }
@@ -33,8 +33,7 @@
   #link-header-mobile {
     display: block;
     position: fixed;
-    top: -20;
-    right: 15px;
+    right: 35px;
   }
 
   .header-link {
