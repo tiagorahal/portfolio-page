@@ -11,6 +11,14 @@ header{
   top: 0;
 }
 
+main {
+  background-color: rgb(112, 34, 177);
+  height: 100%;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
 #link-header-desktop {
   display: contents;
   position: fixed;
@@ -44,6 +52,58 @@ header{
   justify-content: center;
   align-items: center;
   padding-top: 200px;
+}
+
+#main-top {
+  min-height: 600px;
+  width: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-text-top {
+  padding-left: 10%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s;
+}
+
+#main-text-top:hover {
+  transition: all 1s;
+  transform: scale(1.1);
+}
+
+
+#figure-main-top-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+#figure-main-top-div:hover {
+  transition: all 1s;
+  transform: scale(1.1);
+}
+
+
+#main-top-image {
+  width: 300px;
+  height: 400px;
+  transition: all 1s;
+}
+
+#title-text-main-top {
+  transition: all 1s;
+}
+
+#title-text-main-top:hover {
+  transition: all 1s;
+  transform: scale(1.5);
 }
 
 .links-hidden {
