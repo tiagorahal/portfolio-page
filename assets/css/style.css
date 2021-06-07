@@ -6,15 +6,24 @@ body {
 header{
   border: 1px solid red;
   background-color: black;
-  height: 6vh;
+  height: 7vh;
   width: 100%;
   position: fixed;
   top: 0;
 }
 
+#link-header-desktop {
+  display: contents;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
 #header-title {
-  padding-left: 5vh;
-  color: #cfff04;
+  padding-top: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: goldenrod;
 }
 
 .header-link {
