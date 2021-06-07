@@ -120,6 +120,21 @@ main {
   font-weight: bold;
 }
 
+.project-container {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-project-div {
+  border: solid red 1px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center
+}
+
 .links-hidden {
   padding-top: 5vh;
   font-size: 2em;
