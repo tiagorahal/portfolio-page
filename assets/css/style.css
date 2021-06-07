@@ -4,7 +4,6 @@ body {
 }
 
 header{
-  border: 1px solid red;
   background-color: black;
   height: 7vh;
   width: 100%;
@@ -17,6 +16,10 @@ header{
   position: fixed;
   top: 0;
   right: 0;
+}
+
+#link-header-mobile {
+  display:none;
 }
 
 #header-title {
