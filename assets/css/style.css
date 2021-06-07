@@ -29,6 +29,39 @@ header{
   color: goldenrod;
 }
 
+#header-hidden-mobile {
+  display: none;
+  position: absolute;
+  overflow: scroll;
+  width: 100%;
+  min-height: 1024px;
+  background-color: rgba(0, 0, 255, 0.39);
+}
+
+#hidden-link-header {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.links-hidden {
+  padding-top: 5vh;
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: all 1s;
+  color: darkblue;
+}
+
+.links-hidden:hover {
+  transition: all 1s;
+  transform: scale(1.1);
+  color: black;
+  text-decoration: underline;
+}
+
 .header-link {
   font-size: 1.3em;
   font-weight: bold;;

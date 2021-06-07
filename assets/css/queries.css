@@ -25,6 +25,10 @@
     right: 15px;
   }
 
+  .header-link {
+    font-size: 1em;
+  }
+
   #link-icon-mobile {
     font-size: 2.5em;
     font-weight: bolder;
