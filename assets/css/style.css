@@ -108,6 +108,18 @@ main {
   background-color: #F4F3EA;
 }
 
+#projects-main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects-main-title-h3 {
+  font-size: 2em;
+  color: #333D51;
+  font-weight: bold;
+}
+
 .links-hidden {
   padding-top: 5vh;
   font-size: 2em;
