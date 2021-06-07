@@ -118,17 +118,19 @@ main {
   font-size: 2em;
   color: #D3AC2B;
   font-weight: bold;
+  padding-bottom: 50px;
 }
 
 .project-container {
   padding-top: 10%;
+  padding-bottom: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: #333D51 solid 3px;
 }
 
 .text-project-div {
-  border: solid red 1px;
   display: flex;
   flex-flow: column;
   align-items: center;
