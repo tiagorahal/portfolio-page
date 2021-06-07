@@ -15,7 +15,8 @@ main {
   background-color: rgb(112, 34, 177);
   height: 100%;
   width: 100%;
-  padding-top: 80px;
+  min-height: 858px;
+  padding-top: 90px;
   padding-bottom: 30px;
 }
 
@@ -77,6 +78,9 @@ main {
   transform: scale(1.1);
 }
 
+#text-top {
+  font-size: 1.6em;
+}
 
 #figure-main-top-div {
   display: flex;
@@ -92,7 +96,7 @@ main {
 
 
 #main-top-image {
-  width: 300px;
+  width: auto;
   height: 400px;
   transition: all 1s;
 }

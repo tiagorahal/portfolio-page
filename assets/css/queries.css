@@ -47,10 +47,20 @@
     text-decoration: none;
     color: whitesmoke;
   }
+
+  
+  
 }
 
 @media (max-width: 991.98px) {
-  
+  #text-top {
+    font-size: 1.1em;
+  }
+
+  #main-top-image {
+    width: 300px;
+    height: 400px;
+  }
  
 }
 
