@@ -116,14 +116,14 @@ main {
 
 #projects-main-title-h3 {
   font-size: 2em;
-  color: #333D51;
+  color: #D3AC2B;
   font-weight: bold;
 }
 
 .project-container {
   padding-top: 10%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -132,7 +132,12 @@ main {
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.project-image {
+  border-radius: 5%;
 }
 
 .links-hidden {
@@ -142,6 +147,19 @@ main {
   font-weight: bolder;
   transition: all 1s;
   color: darkblue;
+}
+
+.project-title {
+  color: #333D51;
+  font-weight: bolder;
+  font-size: 1.7em;
+}
+
+.project-text {
+  color: #333D51;
+  font-size: 1.5em;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .links-hidden:hover {
