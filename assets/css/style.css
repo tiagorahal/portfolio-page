@@ -15,7 +15,6 @@ main {
   background-color: #333D51;
   height: 100%;
   width: 100%;
-  min-height: 858px;
   padding-top: 90px;
   padding-bottom: 30px;
 }
@@ -101,6 +100,12 @@ main {
   transition: all 1s;
   font-size: 3em;
   color: #D3AC2B;
+}
+
+#projects-main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #F4F3EA;
 }
 
 .links-hidden {
