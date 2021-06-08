@@ -104,7 +104,6 @@ main {
 
 #projects-main {
   padding-top: 50px;
-  padding-bottom: 50px;
   background-color: #F4F3EA;
 }
 
@@ -122,8 +121,7 @@ main {
 }
 
 .project-container {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,7 +133,7 @@ main {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .project-image {
