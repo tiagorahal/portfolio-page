@@ -186,14 +186,18 @@ main {
   text-decoration: underline;
 }
 
+.features-text {
+  color: #999;
+}
+
 /* Whatsapp Icon */
 
 .float{
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:40px;
-	right:40px;
+	bottom:25px;
+	right:25px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
