@@ -122,7 +122,24 @@ main {
 }
 
 #header-link-mail {
+  color: #25D366;
+}
+
+#skills-div {
+  background-color: #F4F3EA;
+}
+
+#skills-title {
+  font-size: 2em;
   color: #D3AC2B;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+#skills-title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-container {
@@ -192,7 +209,8 @@ main {
 .features-text {
   background-color: #F4F3EA;
   color: #333D51;
-  margin-top: 10%;
+  margin-top: 7%;
+  margin-bottom: 7%;
   margin-left: 2%;
   margin-right: 2%;
   max-width: 358px;
@@ -201,31 +219,12 @@ main {
   border-radius: 3%;
 }
 
-.figure-div {
-  
+.icon-skills {
+  width: 150px;
+  height: 150px;
 }
 
 .image-features{
   padding-top: 10px;
 }
 
-/* Whatsapp Icon */
-
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:25px;
-	right:25px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-
-.my-float{
-	margin-top:16px;
-}
