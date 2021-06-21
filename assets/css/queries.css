@@ -15,10 +15,6 @@
     font-size: 1em;
   }
 
-  .text-features {
-    padding-top: 25%;
-  }
-
 }
 
 @media (max-width: 767.98px) {
@@ -52,10 +48,7 @@
     color: whitesmoke;
   }
 
-  .text-features {
-    padding-top: 25%;
-  }
-
+ 
   
 
 }
