@@ -142,6 +142,16 @@ main {
   text-align: center;
 }
 
+#skills-text {
+  padding: 1%;
+  text-align: center;
+}
+
+#skills-div-body {
+  width: 80%;
+  margin: auto;
+}
+
 .project-container {
   padding-top: 2%;
   display: flex;
@@ -224,5 +234,14 @@ main {
 
 .image-features{
   padding-top: 10px;
+}
+
+.image-skills {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.skills-logo {
+  max-height: 200px;
 }
 
