@@ -121,6 +121,10 @@ main {
   padding-bottom: 50px;
 }
 
+#header-link-mail {
+  color: #D3AC2B;
+}
+
 .project-container {
   padding-top: 2%;
   display: flex;

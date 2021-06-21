@@ -1,8 +1,4 @@
 @media (max-width: 575.98px) {
-  #header-title {
-    padding-top: 10px;
-  }
-
   #main-top {
     display: flex;
     flex-flow: column;
@@ -25,10 +21,10 @@
   header{
     height: 6vh;
   }
-  
+
   #header-title {
-    text-align: center;
-    padding-right: 10vh;
+    padding-top: 8px;
+    padding-left: 0px;
   }
   
   #link-header-desktop {
@@ -42,7 +38,7 @@
   }
 
   .header-link {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   #link-icon-mobile {
@@ -57,6 +53,11 @@
 @media (max-width: 991.98px) {
   #text-top {
     font-size: 2em;
+  }
+
+  #header-title {
+    padding-top: 10px;
+    padding-left: 5px;
   }
 
   #title-text-main-top {
@@ -82,6 +83,11 @@
   #project-container {
     width: 80%;
     margin: auto;
+  }
+
+  #header-title {
+    padding-top: 8px;
+    padding-left: 5px;
   }
 
 }
