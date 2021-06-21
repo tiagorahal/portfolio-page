@@ -46,10 +46,7 @@
     font-weight: bolder;
     text-decoration: none;
     color: whitesmoke;
-  }
-
- 
-  
+  } 
 
 }
 
@@ -79,8 +76,6 @@
   .text-project-div {
     padding-bottom: 0px;
   }
-
-
 
 }
 
@@ -136,6 +131,4 @@
   .text-features {
     font-size: 2rem;
   }
-
-  
 }
