@@ -190,9 +190,19 @@ main {
 }
 
 .features-text {
-  color: #999;
-  padding-top: 10%;
+  background-color: #F4F3EA;
+  color: #333D51;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  max-width: 358px;
 }
+
+.text-features {
+  padding-top: 20%;
+}
+
+
 
 /* Whatsapp Icon */
 
