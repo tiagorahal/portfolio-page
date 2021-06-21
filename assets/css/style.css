@@ -42,6 +42,7 @@ main {
   position: absolute;
   overflow: scroll;
   width: 100%;
+  margin-top: 50px;
   min-height: 1024px;
   background-color: rgba(0, 0, 255, 0.39);
 }
@@ -186,6 +187,7 @@ main {
 
 .features-text {
   color: #999;
+  padding-top: 10%;
 }
 
 /* Whatsapp Icon */
