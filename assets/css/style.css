@@ -104,7 +104,7 @@ main {
 }
 
 #projects-main {
-  padding-top: 50px;
+  padding-top: 25px;
   background-color: #F4F3EA;
 }
 
@@ -118,7 +118,7 @@ main {
   font-size: 2em;
   color: #D3AC2B;
   font-weight: bold;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 #header-link-mail {
@@ -129,17 +129,17 @@ main {
   background-color: #F4F3EA;
 }
 
+#title-skills-div {
+  border-bottom: #333D51 solid 3px;
+}
+
 #skills-title {
   font-size: 2em;
   color: #D3AC2B;
   font-weight: bold;
-  padding-bottom: 50px;
-}
-
-#skills-title-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
 }
 
 .project-container {
@@ -211,8 +211,6 @@ main {
   color: #333D51;
   margin-top: 7%;
   margin-bottom: 7%;
-  margin-left: 2%;
-  margin-right: 2%;
   max-width: 358px;
   border-style: solid;
   border-color: #D3AC2B;
