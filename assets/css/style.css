@@ -196,6 +196,13 @@ main {
   margin-left: 2%;
   margin-right: 2%;
   max-width: 358px;
+  border-style: solid;
+  border-color: #D3AC2B;
+  border-radius: 3%;
+}
+
+.figure-div {
+  
 }
 
 .image-features{
