@@ -103,3 +103,39 @@
 @media (max-width: 1399.98px) {
  
 }
+
+@media (min-width: 1450px) {
+  main {
+  padding-top: 150px;
+  padding-bottom: 70px;
+  }
+
+  #header-link-mail {
+    width: 300px;
+    font-size: 100px;
+  }
+
+  #text-top,
+  #projects-main-title-h3,
+  .project-text,
+  .header-link {
+    font-size: 3rem;
+  }
+
+  #title-text-main-top,
+  .project-title {
+    font-size: 5rem;
+  }
+
+  .features-text { 
+    min-width: 660px;
+    max-width: 800px;
+    margin-bottom: 8000px;
+  }
+
+  .text-features {
+    font-size: 2rem;
+  }
+
+  
+}
