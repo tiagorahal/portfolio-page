@@ -46,7 +46,12 @@
     font-weight: bolder;
     text-decoration: none;
     color: whitesmoke;
-  } 
+  }
+  
+  #hide-img-skills {
+    display: none;
+  }
+
 
 }
 
@@ -77,6 +82,7 @@
     padding-bottom: 0px;
   }
 
+ 
 }
 
 @media (max-width: 1199.98px) {
@@ -111,19 +117,20 @@
   }
 
   #text-top,
-  #projects-main-title-h3,
+  #skills-text,
   .project-text,
   .header-link {
-    font-size: 2.4rem;
+    font-size: 1.7rem;
   }
 
   #title-text-main-top,
+  #projects-main-title-h3,
+  #skills-title,
   .project-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .features-text { 
-    min-width: 660px;
     max-width: 800px;
   }
 
