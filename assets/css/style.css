@@ -42,6 +42,7 @@ main {
   position: absolute;
   overflow: scroll;
   width: 100%;
+  margin-top: 50px;
   min-height: 1024px;
   background-color: rgba(0, 0, 255, 0.39);
 }
@@ -103,8 +104,7 @@ main {
 }
 
 #projects-main {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
   background-color: #F4F3EA;
 }
 
@@ -118,12 +118,42 @@ main {
   font-size: 2em;
   color: #D3AC2B;
   font-weight: bold;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
+}
+
+#header-link-mail {
+  color: #25D366;
+}
+
+#skills-div {
+  background-color: #F4F3EA;
+}
+
+#title-skills-div {
+  border-bottom: #333D51 solid 3px;
+}
+
+#skills-title {
+  font-size: 2em;
+  color: #D3AC2B;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#skills-text {
+  padding: 1%;
+  text-align: center;
+}
+
+#skills-div-body {
+  width: 80%;
+  margin: auto;
 }
 
 .project-container {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,7 +165,7 @@ main {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .project-image {
@@ -185,3 +215,33 @@ main {
   color: #D3AC2B;
   text-decoration: underline;
 }
+
+.features-text {
+  background-color: #F4F3EA;
+  color: #333D51;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  max-width: 358px;
+  border-style: solid;
+  border-color: #D3AC2B;
+  border-radius: 3%;
+}
+
+.icon-skills {
+  width: 150px;
+  height: 150px;
+}
+
+.image-features{
+  padding-top: 10px;
+}
+
+.image-skills {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.skills-logo {
+  max-height: 200px;
+}
+

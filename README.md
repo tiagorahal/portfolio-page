@@ -1,6 +1,6 @@
 # Portfolio page
 
-![screenshot](-------------------)
+![screenshot](./assets/images/screenshot.png)
 
 > My personal website portfolio with my projects.
 
@@ -15,7 +15,7 @@
 
 ### Setup
 
-* Enter the live version [link](-------------------)
+* Enter the live version [link](https://tiagorahal.github.io/Portfolio-page/)
 
 ## Author
 
