@@ -1,8 +1,18 @@
-let buttonToChange = document.getElementById('link-header-mobile');//the button
+let displayButton = document.getElementById('link-header-mobile-icon');//the button to change display to block
+let afterDisplayShowButton = document.getElementById('hidden-link-header');//the div that will trigger de display none
 
 function showHiddenDiv() {
-  let changeDisplay = 'block'
-  return document.getElementById('header-hidden-mobile').style.display = changeDisplay;
+  if(document.getElementById('header-hidden-mobile').style.display = 'none') {
+    document.getElementById('header-hidden-mobile').style.display = 'block';
+  }
 }
 
-buttonToChange.onclick = showHiddenDiv;
+function hideHiddenDiv() {
+  if(document.getElementById('header-hidden-mobile').style.display = 'block') {
+    document.getElementById('header-hidden-mobile').style.display = 'none';
+  }
+}
+
+
+displayButton.onclick = showHiddenDiv;
+afterDisplayShowButton.onclick = hideHiddenDiv;

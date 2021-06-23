@@ -55,7 +55,7 @@ footer {
   width: 100%;
   margin-top: 50px;
   min-height: 1024px;
-  background-color: rgba(0, 0, 255, 0.39);
+  background-color: #333d51e7;
 }
 
 #hidden-link-header {
@@ -247,11 +247,11 @@ font-size: 1.2rem;
 
 .links-hidden {
   padding-top: 5vh;
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
   font-weight: bolder;
   transition: all 1s;
-  color: darkblue;
+  color: #D3AC2B;
 }
 
 .project-title {
@@ -270,8 +270,7 @@ font-size: 1.2rem;
 .links-hidden:hover {
   transition: all 1s;
   transform: scale(1.1);
-  color: black;
-  text-decoration: underline;
+  color: #D3AC2B;
 }
 
 .header-link {
