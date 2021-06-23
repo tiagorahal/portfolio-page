@@ -16,7 +16,6 @@ main {
   height: 100%;
   width: 100%;
   padding-top: 90px;
-  padding-bottom: 30px;
 }
 
 #link-header-desktop {
@@ -150,6 +149,22 @@ main {
 #skills-div-body {
   width: 80%;
   margin: auto;
+}
+
+#contact-container {
+  background-color: #F4F3EA;
+}
+
+#contact-title-div {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+#contact-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #D3AC2B;
+  font-weight: bold;
 }
 
 .project-container {

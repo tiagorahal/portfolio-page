@@ -108,7 +108,6 @@
 @media (min-width: 1450px) {
   main {
   padding-top: 150px;
-  padding-bottom: 70px;
   }
 
   #header-link-mail {
@@ -126,6 +125,7 @@
   #title-text-main-top,
   #projects-main-title-h3,
   #skills-title,
+  #contact-title,
   .project-title {
     font-size: 4rem;
   }
