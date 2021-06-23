@@ -15,11 +15,15 @@
     font-size: 1em;
   }
 
+  #mail-button:hover {
+    transform: scale(1.1);
+  }
+
 }
 
 @media (max-width: 767.98px) {
   header{
-    height: 6vh;
+    height: 50px;
   }
 
   #header-title {
@@ -37,6 +41,10 @@
     right: 35px;
   }
 
+  #header-link-mail-name {
+    display: none;
+  }
+
   .header-link {
     font-size: 2em;
   }
@@ -46,7 +54,12 @@
     font-weight: bolder;
     text-decoration: none;
     color: whitesmoke;
-  } 
+  }
+  
+  #hide-img-skills {
+    display: none;
+  }
+
 
 }
 
@@ -65,6 +78,10 @@
     font-size: 2.3em;
   }
 
+  .header-link {
+    padding-top: 10px;
+  }
+
   .project-container {
     flex-flow: column;
   }
@@ -77,6 +94,7 @@
     padding-bottom: 0px;
   }
 
+ 
 }
 
 @media (max-width: 1199.98px) {
@@ -95,14 +113,36 @@
   }
 }
 
-@media (max-width: 1399.98px) {
- 
+
+/* media with min */
+
+
+
+@media (min-width: 768px) {
+
+  #header-link-mail {
+    display: none;
+  }
+
+  .header-link {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  #contact-text-title,
+  #contact-text {
+    padding-left: 30%;
+  }
+
+  #mail-button {
+    margin-left: 15%;
+  }
 }
 
 @media (min-width: 1450px) {
   main {
   padding-top: 150px;
-  padding-bottom: 70px;
   }
 
   #header-link-mail {
@@ -111,23 +151,31 @@
   }
 
   #text-top,
-  #projects-main-title-h3,
+  #skills-text,
   .project-text,
   .header-link {
-    font-size: 2.4rem;
+    font-size: 1.7rem;
   }
 
   #title-text-main-top,
+  #projects-main-title-h3,
+  #skills-title,
+  #contact-title,
   .project-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .features-text { 
-    min-width: 660px;
     max-width: 800px;
   }
 
   .text-features {
     font-size: 2rem;
   }
+
+  .header-link {
+    padding-bottom: 10px;
+  }
+
+  
 }
