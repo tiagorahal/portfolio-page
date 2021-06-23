@@ -19,6 +19,17 @@ main {
   padding-top: 90px;
 }
 
+footer {
+  background-color: black;
+  height: 60px;
+}
+
+#footer-title {
+  color: #F4F3EA;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
 #link-header-desktop {
   display: contents;
   position: fixed;
