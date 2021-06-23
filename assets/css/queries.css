@@ -15,6 +15,10 @@
     font-size: 1em;
   }
 
+  #mail-button:hover {
+    transform: scale(1.1);
+  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -35,6 +39,10 @@
     display: block;
     position: fixed;
     right: 35px;
+  }
+
+  #header-link-mail-name {
+    display: none;
   }
 
   .header-link {
@@ -122,7 +130,14 @@
 }
 
 @media (min-width: 1199.98px) {
-  
+  #contact-text-title,
+  #contact-text {
+    padding-left: 30%;
+  }
+
+  #mail-button {
+    margin-left: 15%;
+  }
 }
 
 @media (min-width: 1450px) {
