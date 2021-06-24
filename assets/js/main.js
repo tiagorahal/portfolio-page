@@ -13,6 +13,5 @@ function hideHiddenDiv() {
   }
 }
 
-
 displayButton.onclick = showHiddenDiv;
 afterDisplayShowButton.onclick = hideHiddenDiv;
