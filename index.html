@@ -17,9 +17,9 @@
       <!-- Hidden links from mobile, on icon click, SET ON JS LATER OM IMPLEMENTATION!!!!! -->
       <div id="header-hidden-mobile">
         <div id="hidden-link-header" class="container-fluid">
-          <a href="#" class="links-hidden">PROJECTS</a>
-          <a href="#" class="links-hidden">MORE ABOUT ME</a>
-          <a href="#" class="links-hidden">CONTACT</a>
+          <a href="#projects-main" class="links-hidden">PROJECTS</a>
+          <a href="#about-set" class="links-hidden">MORE ABOUT ME</a>
+          <a href="#contact-container" class="links-hidden">CONTACT</a>
         </div>
       </div>
       
@@ -40,9 +40,9 @@
           <!-- Links on desktop/tablet/mobile inside Header -->
           <div class="link-header-group col-6 d-flex justify-content-around align-items-center">
             <div id="link-header-desktop">   
-              <a class="header-link" href="#">Projects</a>
-              <a class="header-link" href="#">More About Me</a>
-              <a class="header-link" href="#">Contact</a>              
+              <a class="header-link" href="#projects-main">Projects</a>
+              <a class="header-link" href="#about-set">More About Me</a>
+              <a class="header-link" href="#contact-container">Contact</a>              
             </div>
             <div id="link-header-mobile">
               <a id="link-header-mobile-icon" href="#"><i id="link-icon-mobile" class="bi bi-list"></i></a>
@@ -67,8 +67,11 @@
             <figure id="figure-main-top-div">
               <img id="main-top-image" class="img-fluid" src="./assets/images/main-photo.jpg" alt="Photo of Tiago">
             </figure>
+            
           </div>
+          
         </div>
+        
         <!-- Projects Highlights -->
         <div id="projects-main" class="row">
           <!-- Projects highlights title -->
@@ -122,6 +125,38 @@
           </div>        
         </div>
       </div>
+
+      <div id="about-set" class="container-fluid">
+        <div id="skills-div" class="row d-flex flex-column justify-content-center">
+          <div id="title-skills-div" class="col-12">
+            <h3 id="skills-title">SKILLS</h3>
+          </div>
+          <div id="skills-div-body" class="row d-flex justify-content-center align-items-center py-3">
+            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center flex-column">
+              <figure>
+                <img class="img-fluid skills-logo" src="./assets/images/computer.png" alt="computer skills">
+              </figure>
+              <div id="skills-text" class="pb-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quaerat enim quos dicta beatae vel officiis, earum minus aspernatur! Ullam quas sint eum illo maiores molestias, libero possimus corporis id!
+              </div>
+            </div>
+           
+            <div class="col-sm-12 col-md-6 order-md-first d-flex justify-content-around align-items-center flex-wrap flex-column">
+              <img id="hide-img-skills" class="img-fluid" src="./assets/images/computer2.png" alt="coding structure">
+              <!--
+              <img class="img-fluid image-skills" src="./assets/images/linux-logo.svg" alt="html logo">
+              <img class="img-fluid image-skills" src="./assets/images/html-logo.svg" alt="html logo">
+              <img class="img-fluid image-skills" src="./assets/images/css-logo.svg" alt="html logo">
+              <img class="img-fluid image-skills" src="./assets/images/js-logo.svg" alt="html logo">
+              <img class="img-fluid image-skills" src="./assets/images/bootstrap-logo.svg" alt="html logo">
+              <img class="img-fluid image-skills" src="./assets/images/sass-logo.svg" alt="html logo">
+              <img class="img-fluid image-skills" src="./assets/images/ruby-logo.svg" alt="html logo">
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Main features -->
       <div class="container-fluid">
         <div class="row d-flex justify-content-around">
@@ -156,39 +191,7 @@
             </p>
           </div>
         </div>
-      </div>
-
-      <div class="container-fluid">
-        <div id="skills-div" class="row d-flex flex-column justify-content-center">
-          <div id="title-skills-div" class="col-12">
-            <h3 id="skills-title">SKILLS</h3>
-          </div>
-          <div id="skills-div-body" class="row d-flex justify-content-center align-items-center py-3">
-            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center flex-column">
-              <figure>
-                <img class="img-fluid skills-logo" src="./assets/images/computer.png" alt="computer skills">
-              </figure>
-              <div id="skills-text" class="pb-2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quaerat enim quos dicta beatae vel officiis, earum minus aspernatur! Ullam quas sint eum illo maiores molestias, libero possimus corporis id!
-              </div>
-            </div>
-           
-            <div class="col-sm-12 col-md-6 order-md-first d-flex justify-content-around align-items-center flex-wrap flex-column">
-              <img id="hide-img-skills" class="img-fluid" src="./assets/images/computer2.png" alt="coding structure">
-              <!--
-              <img class="img-fluid image-skills" src="./assets/images/linux-logo.svg" alt="html logo">
-              <img class="img-fluid image-skills" src="./assets/images/html-logo.svg" alt="html logo">
-              <img class="img-fluid image-skills" src="./assets/images/css-logo.svg" alt="html logo">
-              <img class="img-fluid image-skills" src="./assets/images/js-logo.svg" alt="html logo">
-              <img class="img-fluid image-skills" src="./assets/images/bootstrap-logo.svg" alt="html logo">
-              <img class="img-fluid image-skills" src="./assets/images/sass-logo.svg" alt="html logo">
-              <img class="img-fluid image-skills" src="./assets/images/ruby-logo.svg" alt="html logo">
-              -->
-            </div>
-          </div>
-        </div>
-      </div>
-      
+      </div>  
       <div class="container-fluid">
         <div class="row d-flex justify-content-around">
           <div class="col-sm-12 col-md-8 col-lg-3 features-text d-flex flex-column justify-content-between">
@@ -223,6 +226,8 @@
           </div>
         </div>
       </div>
+
+      
 
       <div class="container-fluid">
         <div id="contact-container" class="row">
