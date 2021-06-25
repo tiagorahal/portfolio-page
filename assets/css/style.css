@@ -217,11 +217,10 @@ font-size: 1.2rem;
   
 
 .project-container {
-  padding-top: 2%;
+  padding-top: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .text-project-div {
@@ -230,11 +229,19 @@ font-size: 1.2rem;
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
+  max-width: 80%;
+}
+
+.project-text-features {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 .project-image {
-  border-radius: 5%;
+  border-radius: 10%;
   transition: all 1s;
+  max-width: 90%;
 }
 
 .project-image:hover {
@@ -317,5 +324,22 @@ font-size: 1.2rem;
 
 .skills-logo {
   max-height: 200px;
+}
+
+.button-link-project {
+  background-color: #333D51;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #D3AC2B;
+  padding: 13px;
+  border-radius: 7px;
+  transition: all 1s;
+  margin-bottom: 5%;
+}
+
+.button-link-project:hover {
+  transition: all 1s;
+  transform: scale(1.1);
+  color: #D3AC2B;
 }
 
