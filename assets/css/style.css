@@ -41,6 +41,10 @@ footer {
   display:none;
 }
 
+#link-icon-mobile {
+  color: #6df1d8;
+}
+
 #header-title {
   padding-top: 8px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -257,7 +261,7 @@ font-size: 1.2rem;
   text-decoration: none;
   font-weight: bolder;
   transition: all 1s;
-  color: #D3AC2B;
+  color: #6df1d8;
 }
 
 .project-title {
@@ -276,7 +280,7 @@ font-size: 1.2rem;
 .links-hidden:hover {
   transition: all 1s;
   transform: scale(1.1);
-  color: #D3AC2B;
+  color: #6df1d8;
 }
 
 .header-link {
