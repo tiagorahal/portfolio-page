@@ -4,7 +4,7 @@ body {
 }
 
 header{
-  background-color: black;
+  background-color: #5c2c6d;
   height: 60px;
   width: 100%;
   position: fixed;
@@ -13,19 +13,19 @@ header{
 }
 
 main {
-  background-color: #333D51;
+  background-color: #3c345c;
   height: 100%;
   width: 100%;
   padding-top: 90px;
 }
 
 footer {
-  background-color: black;
+  background-color: #5c2c6d;
   height: 60px;
 }
 
 #footer-title {
-  color: #F4F3EA;
+  color: #6df1d8;
   font-size: 1rem;
   padding-top: 20px;
 }
@@ -91,7 +91,7 @@ footer {
 
 #text-top {
   font-size: 2em;
-  color: #F4F3EA;
+  color: #5da4a6;
   transition: all 1s;
 }
 
@@ -111,12 +111,12 @@ footer {
 #title-text-main-top {
   transition: all 1s;
   font-size: 3em;
-  color: #D3AC2B;
+  color: 	#6df1d8;
 }
 
 #projects-main {
   padding-top: 25px;
-  background-color: #F4F3EA;
+  background-color: 	#b8aec8;
 }
 
 #projects-main-title {
@@ -127,23 +127,24 @@ footer {
 
 #projects-main-title-h3 {
   font-size: 2em;
-  color: #D3AC2B;
+  color: 	#6df1d8;
   font-weight: bold;
   padding-bottom: 25px;
   padding-top: 60px;
 }
 
 #header-link-mail {
-  color: #25D366;
+  color: 	#6df1d8;
+  text-decoration: none;
 }
 
 #skills-div {
-  background-color: #F4F3EA;
+  background-color: #b8aec8;
 }
 
 #skills-title {
   font-size: 2em;
-  color: #D3AC2B;
+  color: #6df1d8;
   font-weight: bold;
   padding-bottom: 5px;
   padding-top: 60px;
@@ -161,7 +162,7 @@ footer {
 }
 
 #contact-container {
-  background-color: #F4F3EA;
+  background-color: #b8aec8;
 }
 
 #contact-title-div {
@@ -172,7 +173,7 @@ footer {
 #contact-title {
   text-align: center;
   font-size: 2rem;
-  color: #D3AC2B;
+  color: #6df1d8;
   font-weight: bold;
 }
 
@@ -180,14 +181,14 @@ footer {
   font-size: 1em;
   font-weight: bold;;
   text-decoration: none;
-  color: #F4F3EA;
+  color: 	#6df1d8;
   transition: all 1s;
 }
 
 #header-link-mail-name:hover {
   transform: scale(1.1);
   transition: all 1s;
-  color: #D3AC2B;
+  color: #6df1d8;
 }
 
 #contact-text-title {
@@ -200,8 +201,8 @@ font-size: 1.2rem;
 }
 
 #mail-button {
-  background-color: #333D51;
-  color: #D3AC2B;
+  background-color: #5c2c6d;
+  color: #6df1d8;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -282,18 +283,18 @@ font-size: 1.2rem;
   font-size: 1.3em;
   font-weight: bold;;
   text-decoration: none;
-  color: #F4F3EA;
+  color: #6df1d8;
   transition: all 1s;
 }
 
 .header-link:hover {
   transform: scale(1.1);
   transition: all 1s;
-  color: #D3AC2B;
+  color: #6df1d8;
 }
 
 .features-text {
-  background-color: #F4F3EA;
+  background-color: #b8aec8;
   color: #333D51;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -328,10 +329,10 @@ font-size: 1.2rem;
 }
 
 .button-link-project {
-  background-color: #333D51;
+  background-color: #5c2c6d;
   text-decoration: none;
   font-size: 1.5rem;
-  color: #D3AC2B;
+  color: 	#6df1d8;
   padding: 13px;
   border-radius: 7px;
   transition: all 1s;
@@ -341,6 +342,6 @@ font-size: 1.2rem;
 .button-link-project:hover {
   transition: all 1s;
   transform: scale(1.1);
-  color: #D3AC2B;
+  color: #6df1d8;
 }
 
