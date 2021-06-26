@@ -151,6 +151,10 @@
   .project-title {
     font-size: 2rem;
   }
+
+  #skills-text-main {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 1450px) {
