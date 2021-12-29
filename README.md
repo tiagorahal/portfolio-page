@@ -15,7 +15,7 @@
 
 ### Setup
 
-* Enter the live version [link](https://tiagorahal.github.io/Portfolio-page/)
+* Enter the live version [link](--------------)
 
 ## Author
 
