@@ -38,7 +38,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to freeCodeCamp and their supportive community.
-- Thanks to everyone committing to this project.
+- Thanks to Microverse and their supportive community.
+- Thanks to Codecademy and their supportive community.
 
 ## 📝 License
 
