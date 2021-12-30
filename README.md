@@ -1,6 +1,6 @@
 # Portfolio page
 
-![screenshot](./assets/images/screenshot.png)
+![screenshot](----------------)
 
 > My personal website portfolio with my projects.
 
