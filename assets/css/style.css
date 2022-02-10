@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: rgb(231,124,12);
+  background-color: rgb(231, 124, 12);
   height: 60px;
   width: 100%;
   position: fixed;
@@ -13,19 +13,19 @@ header {
 }
 
 main {
-  background-color: rgb(63,107,129);
+  background-color: rgb(63, 107, 129);
   height: 100%;
   width: 100%;
   padding-top: 90px;
 }
 
 footer {
-  background-color: rgb(231,124,12);
+  background-color: rgb(231, 124, 12);
   height: 60px;
 }
 
 #footer-title {
-  color: black);
+  color: black;
   font-size: 1rem;
   padding-top: 20px;
 }
@@ -115,7 +115,7 @@ footer {
 
 #projects-main {
   padding-top: 25px;
-  background-color: rgb(238,232,221);
+  background-color: rgb(238, 232, 221);
 }
 
 #projects-main-title {
@@ -138,7 +138,7 @@ footer {
 }
 
 #skills-div {
-  background-color: rgb(238,232,221);
+  background-color: rgb(238, 232, 221);
 }
 
 #skills-title {
@@ -161,7 +161,7 @@ footer {
 }
 
 #contact-container {
-  background-color: rgb(238,232,221);
+  background-color: rgb(238, 232, 221);
 }
 
 #contact-title-div {
@@ -200,7 +200,7 @@ footer {
 }
 
 #mail-button {
-  background-color: rgb(63,107,129);
+  background-color: rgb(63, 107, 129);
   color: snow;
   font-size: 1.5rem;
   font-weight: bold;
@@ -217,7 +217,7 @@ footer {
 
 #skills-text-main {
   font-size: 1.8rem;
-  color: rgb(231,124,12);
+  color: rgb(231, 124, 12);
 }
 
 .project-container {
@@ -297,7 +297,7 @@ footer {
 }
 
 .features-text {
-  background-color: rgb(238,232,221);
+  background-color: rgb(238, 232, 221);
   color: black;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -332,7 +332,7 @@ footer {
 }
 
 .button-link-project {
-  background-color: rgb(63,107,129);
+  background-color: rgb(63, 107, 129);
   text-decoration: none;
   font-size: 1.5rem;
   color: snow;
