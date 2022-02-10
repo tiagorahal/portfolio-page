@@ -249,7 +249,7 @@ footer {
 .project-image {
   border-radius: 10%;
   transition: all 1s;
-  max-width: 90%;
+  max-width: 70%;
 }
 
 .project-image:hover {
