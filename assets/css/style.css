@@ -165,6 +165,9 @@ footer {
 }
 
 #contact-title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
@@ -346,4 +349,17 @@ footer {
   transition: all 1s;
   transform: scale(1.1);
   color: snow;
+}
+
+.resume-button {
+  background-color: rgb(63, 107, 129);
+  color: snow;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 1s;
+  max-width: 400px;
+  text-align: center;
 }
