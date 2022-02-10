@@ -139,7 +139,9 @@
     margin-left: 15%;
   }
 
-  
+  .project-text-right {
+    padding-left: 30px;
+  }
 
   .project-container {
     max-width: 60%;
