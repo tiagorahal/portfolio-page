@@ -45,7 +45,7 @@ footer {
   padding-top: 8px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  color: #d3ac2b;
+  color: black;
 }
 
 #header-hidden-mobile {
@@ -55,7 +55,7 @@ footer {
   width: 100%;
   margin-top: 50px;
   min-height: 1024px;
-  background-color: #333d51e7;
+  background-color: rgba(238, 232, 221, 0.856);
 }
 
 #hidden-link-header {
@@ -260,7 +260,7 @@ footer {
   text-decoration: none;
   font-weight: bolder;
   transition: all 1s;
-  color: #6df1d8;
+  color: black;
 }
 
 .project-title {
