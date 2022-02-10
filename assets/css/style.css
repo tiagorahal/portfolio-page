@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: rgb(63,107,129);
+  background-color: rgb(231,124,12);
   height: 60px;
   width: 100%;
   position: fixed;
@@ -13,19 +13,19 @@ header {
 }
 
 main {
-  background-color: #3c345c;
+  background-color: rgb(63,107,129);
   height: 100%;
   width: 100%;
   padding-top: 90px;
 }
 
 footer {
-  background-color: rgb(63,107,129);
+  background-color: rgb(231,124,12);
   height: 60px;
 }
 
 #footer-title {
-  color: #6df1d8;
+  color: black);
   font-size: 1rem;
   padding-top: 20px;
 }
@@ -39,10 +39,6 @@ footer {
 
 #link-header-mobile {
   display: none;
-}
-
-#link-icon-mobile {
-  color: #6df1d8;
 }
 
 #header-title {
