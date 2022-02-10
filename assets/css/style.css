@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #5c2c6d;
+  background-color: rgb(231, 124, 12);
   height: 60px;
   width: 100%;
   position: fixed;
@@ -13,19 +13,19 @@ header {
 }
 
 main {
-  background-color: #3c345c;
+  background-color: rgb(63, 107, 129);
   height: 100%;
   width: 100%;
   padding-top: 90px;
 }
 
 footer {
-  background-color: #5c2c6d;
+  background-color: rgb(231, 124, 12);
   height: 60px;
 }
 
 #footer-title {
-  color: #6df1d8;
+  color: black;
   font-size: 1rem;
   padding-top: 20px;
 }
@@ -41,15 +41,11 @@ footer {
   display: none;
 }
 
-#link-icon-mobile {
-  color: #6df1d8;
-}
-
 #header-title {
   padding-top: 8px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  color: #d3ac2b;
+  color: black;
 }
 
 #header-hidden-mobile {
@@ -59,7 +55,7 @@ footer {
   width: 100%;
   margin-top: 50px;
   min-height: 1024px;
-  background-color: #333d51e7;
+  background-color: rgba(238, 232, 221, 0.856);
 }
 
 #hidden-link-header {
@@ -95,7 +91,7 @@ footer {
 
 #text-top {
   font-size: 2em;
-  color: #5da4a6;
+  color: snow;
   transition: all 1s;
 }
 
@@ -114,12 +110,12 @@ footer {
 #title-text-main-top {
   transition: all 1s;
   font-size: 3em;
-  color: #6df1d8;
+  color: snow;
 }
 
 #projects-main {
   padding-top: 25px;
-  background-color: #b8aec8;
+  background-color: rgb(238, 232, 221);
 }
 
 #projects-main-title {
@@ -130,24 +126,24 @@ footer {
 
 #projects-main-title-h3 {
   font-size: 2em;
-  color: #6df1d8;
+  color: black;
   font-weight: bold;
   padding-bottom: 25px;
   padding-top: 60px;
 }
 
 #header-link-mail {
-  color: #6df1d8;
+  color: black;
   text-decoration: none;
 }
 
 #skills-div {
-  background-color: #b8aec8;
+  background-color: rgb(238, 232, 221);
 }
 
 #skills-title {
   font-size: 2em;
-  color: #6df1d8;
+  color: black;
   font-weight: bold;
   padding-bottom: 5px;
   padding-top: 60px;
@@ -165,7 +161,7 @@ footer {
 }
 
 #contact-container {
-  background-color: #b8aec8;
+  background-color: rgb(238, 232, 221);
 }
 
 #contact-title-div {
@@ -176,7 +172,7 @@ footer {
 #contact-title {
   text-align: center;
   font-size: 2rem;
-  color: #6df1d8;
+  color: black;
   font-weight: bold;
 }
 
@@ -184,14 +180,14 @@ footer {
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
-  color: #6df1d8;
+  color: snow;
   transition: all 1s;
 }
 
 #header-link-mail-name:hover {
   transform: scale(1.1);
   transition: all 1s;
-  color: #6df1d8;
+  color: black;
 }
 
 #contact-text-title {
@@ -204,8 +200,8 @@ footer {
 }
 
 #mail-button {
-  background-color: #5c2c6d;
-  color: #6df1d8;
+  background-color: rgb(63, 107, 129);
+  color: snow;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -221,12 +217,12 @@ footer {
 
 #skills-text-main {
   font-size: 1.8rem;
-  color: #d30cb8;
+  color: rgb(231, 124, 12);
 }
 
 .project-container {
   padding-top: 10%;
-  padding-bottom: 1%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -264,17 +260,17 @@ footer {
   text-decoration: none;
   font-weight: bolder;
   transition: all 1s;
-  color: #6df1d8;
+  color: black;
 }
 
 .project-title {
-  color: #333d51;
+  color: black;
   font-weight: bolder;
   font-size: 1.8em;
 }
 
 .project-text {
-  color: #333d51;
+  color: black;
   font-size: 1.5em;
   margin-left: 40px;
   margin-right: 40px;
@@ -283,31 +279,31 @@ footer {
 .links-hidden:hover {
   transition: all 1s;
   transform: scale(1.1);
-  color: #6df1d8;
+  color: black;
 }
 
 .header-link {
   font-size: 1.3em;
   font-weight: bold;
   text-decoration: none;
-  color: #6df1d8;
+  color: snow;
   transition: all 1s;
 }
 
 .header-link:hover {
   transform: scale(1.1);
   transition: all 1s;
-  color: #6df1d8;
+  color: black;
 }
 
 .features-text {
-  background-color: #b8aec8;
-  color: #333d51;
+  background-color: rgb(238, 232, 221);
+  color: black;
   margin-top: 2%;
   margin-bottom: 2%;
   max-width: 358px;
   border-style: solid;
-  border-color: #d3ac2b;
+  border-color: black;
   border-radius: 3%;
   transition: all 1s;
 }
@@ -336,10 +332,10 @@ footer {
 }
 
 .button-link-project {
-  background-color: #5c2c6d;
+  background-color: rgb(63, 107, 129);
   text-decoration: none;
   font-size: 1.5rem;
-  color: #6df1d8;
+  color: snow;
   padding: 13px;
   border-radius: 7px;
   transition: all 1s;
@@ -349,5 +345,5 @@ footer {
 .button-link-project:hover {
   transition: all 1s;
   transform: scale(1.1);
-  color: #6df1d8;
+  color: snow;
 }
