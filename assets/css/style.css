@@ -119,7 +119,7 @@ footer {
 
 #projects-main {
   padding-top: 25px;
-  background-color: #b8aec8;
+  background-color: rgb(238,232,221);
 }
 
 #projects-main-title {
@@ -142,7 +142,7 @@ footer {
 }
 
 #skills-div {
-  background-color: #b8aec8;
+  background-color: rgb(238,232,221);
 }
 
 #skills-title {
@@ -165,7 +165,7 @@ footer {
 }
 
 #contact-container {
-  background-color: #b8aec8;
+  background-color: rgb(238,232,221);
 }
 
 #contact-title-div {
@@ -301,7 +301,7 @@ footer {
 }
 
 .features-text {
-  background-color: #b8aec8;
+  background-color: rgb(238,232,221);
   color: #333d51;
   margin-top: 2%;
   margin-bottom: 2%;
