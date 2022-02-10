@@ -3,7 +3,7 @@ body {
   border: 0;
 }
 
-header{
+header {
   background-color: #5c2c6d;
   height: 60px;
   width: 100%;
@@ -38,7 +38,7 @@ footer {
 }
 
 #link-header-mobile {
-  display:none;
+  display: none;
 }
 
 #link-icon-mobile {
@@ -49,7 +49,7 @@ footer {
   padding-top: 8px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  color: #D3AC2B;
+  color: #d3ac2b;
 }
 
 #header-hidden-mobile {
@@ -99,7 +99,6 @@ footer {
   transition: all 1s;
 }
 
-
 #figure-main-top-div {
   display: flex;
   justify-content: center;
@@ -115,12 +114,12 @@ footer {
 #title-text-main-top {
   transition: all 1s;
   font-size: 3em;
-  color: 	#6df1d8;
+  color: #6df1d8;
 }
 
 #projects-main {
   padding-top: 25px;
-  background-color: 	#b8aec8;
+  background-color: #b8aec8;
 }
 
 #projects-main-title {
@@ -131,14 +130,14 @@ footer {
 
 #projects-main-title-h3 {
   font-size: 2em;
-  color: 	#6df1d8;
+  color: #6df1d8;
   font-weight: bold;
   padding-bottom: 25px;
   padding-top: 60px;
 }
 
 #header-link-mail {
-  color: 	#6df1d8;
+  color: #6df1d8;
   text-decoration: none;
 }
 
@@ -183,9 +182,9 @@ footer {
 
 #header-link-mail-name {
   font-size: 1em;
-  font-weight: bold;;
+  font-weight: bold;
   text-decoration: none;
-  color: 	#6df1d8;
+  color: #6df1d8;
   transition: all 1s;
 }
 
@@ -196,12 +195,12 @@ footer {
 }
 
 #contact-text-title {
- font-size: 2.2rem;
- font-weight: bolder;
+  font-size: 2.2rem;
+  font-weight: bolder;
 }
 
 #contact-text {
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 #mail-button {
@@ -224,7 +223,6 @@ font-size: 1.5rem;
   font-size: 1.8rem;
   color: #d30cb8;
 }
-  
 
 .project-container {
   padding-top: 10%;
@@ -270,13 +268,13 @@ font-size: 1.5rem;
 }
 
 .project-title {
-  color: #333D51;
+  color: #333d51;
   font-weight: bolder;
   font-size: 1.8em;
 }
 
 .project-text {
-  color: #333D51;
+  color: #333d51;
   font-size: 1.5em;
   margin-left: 40px;
   margin-right: 40px;
@@ -290,7 +288,7 @@ font-size: 1.5rem;
 
 .header-link {
   font-size: 1.3em;
-  font-weight: bold;;
+  font-weight: bold;
   text-decoration: none;
   color: #6df1d8;
   transition: all 1s;
@@ -304,12 +302,12 @@ font-size: 1.5rem;
 
 .features-text {
   background-color: #b8aec8;
-  color: #333D51;
+  color: #333d51;
   margin-top: 2%;
   margin-bottom: 2%;
   max-width: 358px;
   border-style: solid;
-  border-color: #D3AC2B;
+  border-color: #d3ac2b;
   border-radius: 3%;
   transition: all 1s;
 }
@@ -324,7 +322,7 @@ font-size: 1.5rem;
   height: 150px;
 }
 
-.image-features{
+.image-features {
   padding-top: 10px;
 }
 
@@ -341,7 +339,7 @@ font-size: 1.5rem;
   background-color: #5c2c6d;
   text-decoration: none;
   font-size: 1.5rem;
-  color: 	#6df1d8;
+  color: #6df1d8;
   padding: 13px;
   border-radius: 7px;
   transition: all 1s;
@@ -353,4 +351,3 @@ font-size: 1.5rem;
   transform: scale(1.1);
   color: #6df1d8;
 }
-
