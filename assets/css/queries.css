@@ -18,6 +18,12 @@
   #mail-button:hover {
     transform: scale(1.1);
   }
+
+  .project-image {
+    border-radius: 10%;
+    transition: all 1s;
+    min-width: 200px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -62,7 +68,7 @@
 
 @media (max-width: 991.98px) {
   #text-top {
-    font-size: 2em;
+    font-size: 20px;
   }
 
   #header-title {
@@ -83,10 +89,6 @@
     flex-flow: column;
   }
 
-  .project-image {
-    padding-top: 15px;
-  }
-
   .text-project-div {
     padding-bottom: 0;
   }
@@ -104,7 +106,7 @@
   }
 
   .features-text {
-    max-width: 80%;
+    max-width: 300px;
   }
 }
 
@@ -130,9 +132,12 @@
     margin-left: 15%;
   }
 
-  .text-project-div {
-    padding-left: 10%;
-    padding-right: 10%;
+  #main-top {
+    min-height: 600px;
+  }
+
+  .project-text-right {
+    padding-left: 30px;
   }
 
   .project-container {
