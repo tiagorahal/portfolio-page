@@ -60,12 +60,11 @@
     display: none;
   }
 
-
 }
 
 @media (max-width: 991.98px) {
   #text-top {
-    font-size: 2em;
+    font-size: 20px;
   }
 
   #header-title {
