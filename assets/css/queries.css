@@ -87,6 +87,7 @@
 
   .project-image {
     padding-top: 15px;
+    max-width: 350px;
   }
 
   .text-project-div {
@@ -108,7 +109,7 @@
   }
 
   .features-text {
-    max-width: 80%;
+    max-width: 300px%;
   }
 }
 
