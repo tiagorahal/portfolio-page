@@ -139,6 +139,10 @@
     margin-left: 15%;
   }
 
+  #main-top {
+    min-height: 600px;
+  }
+
   .project-text-right {
     padding-left: 30px;
   }
