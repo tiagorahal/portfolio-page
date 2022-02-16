@@ -1,0 +1,17 @@
+.Header {
+  background-color: #3e3c3c;
+  color: #fff;
+  height: 6vh;
+}
+
+.header-left h1 {
+  font-size: 1.7rem;
+  margin-bottom: 0;
+}
+
+.header-right a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding-left: 3vh;
+}
