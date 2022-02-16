@@ -5,7 +5,7 @@
 }
 
 .links-column {
-  height: 100%;
+  height: 20%;
 }
 
 .links-column-links {
@@ -13,4 +13,16 @@
   color: #fff;
   font-size: 1.8rem;
   padding: 1vh 0;
+}
+
+.text-top-section h3,
+.description-text-2,
+.description-text-3 {
+  text-align: center;
+  margin: 0;
+}
+
+.text-top-section {
+  padding: 0;
+  margin: 0;
 }
