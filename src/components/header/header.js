@@ -2,6 +2,7 @@ import React from 'react';
 import { MdOutlineEmail } from 'react-icons/md';
 import { AiOutlineBars } from 'react-icons/ai';
 
+
 function Header() {
   return (
     <div className="Header nav row align-items-center">
@@ -12,7 +13,7 @@ function Header() {
         </div>
       </div>
       <div className="header-right nav col-lg-7 col-md-6 col-sm justify-content-end">
-        <div className="links-mobile">
+        <div className="links-desktop">
           <a href="/">Portfolio</a>
           <a href="/">About</a>
           <a href="/">Contact</a>

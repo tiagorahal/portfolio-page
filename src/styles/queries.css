@@ -21,6 +21,13 @@
     display: flex;
     font-size: 1.8rem;
   }
+
+  .Hidden-menu-mobile {
+    display: block;
+    z-index: 1;
+  }
+
+  
 }
 
 @media (max-width: 991.98px) {
@@ -51,6 +58,11 @@
 
   .header-right-mobile {
     display: none;
+  }
+
+  .Hidden-menu-mobile {
+    display: none;
+    z-index: 3;
   }
   
 }
