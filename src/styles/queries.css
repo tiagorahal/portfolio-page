@@ -71,6 +71,10 @@
 /* Min Width */
 
 @media (min-width: 576px) {
+
+  .text-top-section {
+    padding-left: 3vh;
+  }
   
 }
 
