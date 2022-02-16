@@ -1,5 +1,5 @@
 import React from 'react';
-import MailHeader from '../../assets/icons/header-mail.svg';
+import { MdOutlineEmail } from 'react-icons/md';
 
 function Header() {
   return (
@@ -7,11 +7,13 @@ function Header() {
       <div className="header-left nav col-lg-4 justify-content-center">
         <h1>Tiago Rahal</h1>
       </div>
-      <div className="header-right nav col justify-content-end">
+      <div className="header-right nav col-lg-7 justify-content-end">
         <a href="/">Portfolio</a>
         <a href="/">About</a>
         <a href="/">Contact</a>
-        <a href="/">{MailHeader}</a>
+        <a href="/">
+          <MdOutlineEmail />
+        </a>
       </div>
     </div>
   );
