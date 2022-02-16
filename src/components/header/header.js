@@ -2,7 +2,6 @@ import React from 'react';
 import { MdOutlineEmail } from 'react-icons/md';
 import { AiOutlineBars } from 'react-icons/ai';
 
-
 function Header() {
   return (
     <div className="Header nav row align-items-center">
