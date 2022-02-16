@@ -4,7 +4,57 @@ import TopSection from '../../components/topSection/topSection';
 
 function Body() {
   return (
-    <div className="Body">
+    <div className="Body row">
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
+      <TopSection />
       <TopSection />
       <TopSection />
       <TopSection />
