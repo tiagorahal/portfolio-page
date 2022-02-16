@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import counterReducer, {
   increment,
   decrement,
