@@ -10,7 +10,7 @@ import {
 function TopSection() {
   return (
     <div className="TopSection col-12">
-      <div className="links-column nav col-1 flex-column align-items-center justify-content-center">
+      <div className="links-column d-flex flex-sm-row flex-md-column nav col-sm-12 col-md-1 align-items-center justify-content-center">
         <a href="/" className="links-column-links">
           <FaGithub />
         </a>

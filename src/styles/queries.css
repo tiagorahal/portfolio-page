@@ -27,6 +27,15 @@
     z-index: 1;
   }
 
+  .links-column {
+   justify-content: end;
+  }
+
+  .links-column-links {
+    padding: 0 5px;
+    font-size: 1.5rem;
+  }
+
   
 }
 
