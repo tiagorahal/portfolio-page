@@ -2,9 +2,16 @@
   background-color: #3E3C3C;
   color: #fff;
   height: 6vh;
-  align-items: center;
 }
 
 .header-left h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+}
+
+.header-right a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding-left: 3vh;
 }
