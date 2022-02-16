@@ -1,8 +1,8 @@
 .TopSection {
   color: #fff;
   height: 70vh;
-  background:url(../assets/images/background-top.png) #1c1a19fa;
-  background-size:cover;
+  background: url(../assets/images/background-top.png) #1c1a19fa;
+  background-size: cover;
   background-blend-mode: multiply;
 }
 
