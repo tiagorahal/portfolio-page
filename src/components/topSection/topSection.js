@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import {
   FaGithub,
@@ -26,19 +27,19 @@ function TopSection() {
       <div className="links-column d-flex flex-sm-row flex-md-column nav col-sm-12 col-md-1
       align-items-sm-end align-items-md-center justify-content-center"
       >
-        <a href="/" className="links-column-links">
+        <a href="https://github.com/tiagorahal" target="_blank" className="links-column-links">
           <FaGithub />
         </a>
-        <a href="/" className="links-column-links">
+        <a href="https://www.linkedin.com/in/tiagorahal/" target="_blank" className="links-column-links">
           <FaLinkedinIn />
         </a>
-        <a href="/" className="links-column-links">
+        <a href="https://twitter.com/RahalAires" target="_blank" className="links-column-links">
           <FaTwitter />
         </a>
-        <a href="/" className="links-column-links">
+        <a href="https://www.reddit.com/user/tiagorahal/" target="_blank" className="links-column-links">
           <FaRedditAlien />
         </a>
-        <a href="/" className="links-column-links">
+        <a href="https://angel.co/u/tiago-rahal-aires" target="_blank" className="links-column-links">
           <FaAngellist />
         </a>
       </div>
