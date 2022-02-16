@@ -1,4 +1,16 @@
 .TopSection {
   background-color: #1C1A19;
   color: #fff;
+  height: 70vh;
+}
+
+.links-column {
+  height: 100%;
+}
+
+.links-column-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1vh 0;
 }
