@@ -15,10 +15,11 @@
   .header-left {
     justify-content: start;
     padding-left: 2vh;
+    padding-top: 0.8vh;
   }
 
   .header-right-mobile {
-    display: block;
+    display: flex;
   }
 }
 
