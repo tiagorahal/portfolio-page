@@ -75,6 +75,15 @@
   .text-top-section {
     padding-left: 3vh;
   }
+
+  .links-column-links {
+    transition: all .2s ease-in-out;;
+  }
+
+  .links-column-links:hover {
+    transform: scale(1.3);
+    color: #fff;
+  }
   
 }
 
