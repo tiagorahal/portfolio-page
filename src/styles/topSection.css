@@ -1,3 +1,30 @@
-.TopSection p {
-  color: black;
+.TopSection {
+  color: #fff;
+  height: 70vh;
+  background: url(../assets/images/background-top.png) #1c1a19fa;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.links-column {
+  height: 20%;
+}
+
+.links-column-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1vh 0;
+}
+
+.text-top-section h3,
+.description-text-2,
+.description-text-3 {
+  text-align: center;
+  margin: 0;
+}
+
+.text-top-section {
+  padding: 0;
+  margin: 0;
 }
