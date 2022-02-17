@@ -1,3 +1,11 @@
 .ProjectComponent {
   padding: 2vh 0;
 }
+
+.inner-content {
+  background-image: url(../assets/images/mock_project.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid red 1px;
+  text-align: start;
+}

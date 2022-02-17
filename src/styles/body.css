@@ -19,3 +19,23 @@
   font-size: 1.2rem;
   margin: 0.5vh 0.5vh;
 }
+
+.toolButton-component {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  margin: 0.5vh 0.7vh 0.5vh 0;
+}
+
+.project-button-component {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 1vh 1.8vh;
+}
+ .buttons-div-component {
+   margin-bottom: 3vh;
+ }
