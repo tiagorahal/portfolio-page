@@ -4,7 +4,9 @@
 }
 
 .project-button {
-  
+  background-color: #FF6B00;
+  border: none;
+  color: #fff;
 }
 
 .buttons-div {

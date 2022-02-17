@@ -67,6 +67,11 @@
     text-align: center;
     padding-top: 2vh;
   }
+
+  .project-button {
+    font-size: 1.3rem;
+    padding: 1vh 1.8vh;
+  }
   
 
   
@@ -137,7 +142,7 @@
   }
 
   .ProjectContainer {
-    padding: 6vh 8vh;
+    padding: 6vh 1vh;
   }
 
   .upper-section-project h2 {
@@ -154,6 +159,12 @@
     height: 2px;
     background-color: #000;
   }
+
+  .project-button {
+    font-size: 1.3rem;
+    padding: 1vh 1.8vh;
+  }
+  
 
 
 }
