@@ -1,6 +1,4 @@
-/* stylelint-disable */
 /* Max Width */
-
 @media (max-width: 767.98px) {
   .header-right {
     display: none;
@@ -29,7 +27,6 @@
     padding-top: 15px;
     height: 40%;
   }
-  
 
   .links-column-links {
     padding: 0 5px;
@@ -42,7 +39,7 @@
 
   .text-top-section h3 {
     font-size: 2.6rem;
-    color: #FF6B00;
+    color: #ff6b00;
   }
 
   .header-right a {
@@ -65,21 +62,16 @@
 /* Min Width */
 
 @media (min-width: 320px) {
-
   .inner-content {
     max-width: 35vh;
     height: 45vh;
     margin: auto;
+    margin-bottom: 2.5vh;
   }
-
 
   .project-title {
     font-size: 1.2rem;
     font-weight: 700;
-  }
-
-  .inner-content {
-    margin-bottom: 2.5vh;
   }
 
   .buttons-div-component {
@@ -88,7 +80,7 @@
   }
 
   .info-title {
-    color: #FF6B00;
+    color: #ff6b00;
     font-size: 2.4rem;
     font-weight: 700;
   }
@@ -118,7 +110,6 @@
     font-size: 1.2rem;
     padding-bottom: 2vh;
   }
-
 }
 
 @media (min-width: 375px) {
@@ -140,15 +131,13 @@
   }
 }
 
-
 @media (min-width: 576px) {
-
   .text-top-section {
     padding-left: 3vh;
   }
 
   .links-column-links {
-    transition: all .2s ease-in-out;;
+    transition: all 0.2s ease-in-out;
   }
 
   .links-column-links:hover {
@@ -161,13 +150,11 @@
   }
 
   .info-title {
-    color: #FF6B00;
+    color: #ff6b00;
     font-size: 2.4rem;
     text-align: start;
     font-weight: 700;
   }
-
-  
 }
 
 @media (min-width: 768px) {
@@ -191,7 +178,7 @@
 
   .text-top-section h3 {
     font-size: 2.6rem;
-    color: #FF6B00;
+    color: #ff6b00;
   }
 
   .header-right a {
@@ -207,11 +194,11 @@
 
   .upper-section-project h2 {
     font-size: 1.8rem;
-    border-top: #091E42;
+    border-top: #091e42;
     display: flex;
     align-items: center;
   }
-  
+
   .upper-section-project h2::after {
     content: '';
     flex: 1;
@@ -248,7 +235,7 @@
   }
 
   .InfoContainer {
-    padding: 0vh 8vh;
+    padding: 0 8vh;
   }
 
   .InfoBottom {
@@ -264,7 +251,6 @@
   .info-bottom-column p {
     font-size: 1.4rem;
   }
-  
 }
 
 @media (min-width: 992px) {
@@ -274,7 +260,7 @@
 
   .description-text-3 {
     font-size: 1.3rem;
-  } 
+  }
 
   .text-top-section {
     padding-left: 3vh;
@@ -288,7 +274,7 @@
     max-width: 35vh;
     height: 45vh;
     margin: auto;
-    padding-top: 0vh;
+    padding-top: 0;
     margin-bottom: 2.5vh;
   }
 
@@ -307,7 +293,7 @@
   }
 
   .InfoContainer {
-    padding: 0vh 10vh;
+    padding: 0 10vh;
   }
 
   .info-bottom-column h3 {
@@ -317,26 +303,24 @@
   .info-bottom-column p {
     font-size: 1.6rem;
   }
-
 }
 
 @media (min-width: 1200px) {
-
   .description-text-2 strong {
     font-size: 1.7rem;
   }
-  
+
   .description-text-3 {
     font-size: 1.5rem;
-  } 
-  
+  }
+
   .text-top-section {
     padding-left: 3vh;
   }
 
   .text-top-section h3 {
     font-size: 3.5rem;
-    color: #FF6B00;
+    color: #ff6b00;
   }
 
   .ProjectContainer {
@@ -363,12 +347,9 @@
     justify-content: space-around;
     padding-left: 0;
   }
-
-  
 }
 
 @media (min-width: 1400px) {
-
   .inner-content {
     max-width: 50vh;
     height: 60vh;
@@ -394,6 +375,4 @@
   .info-bottom-column p {
     font-size: 1.9rem;
   }
-
-  
 }

@@ -64,10 +64,8 @@ hr {
   color: white;
 }
 
-
 .InfoContainer {
   background: url(../assets/images/background-info02.png) #1c1a19fa;
   background-size: cover;
   background-blend-mode: multiply;
 }
-
