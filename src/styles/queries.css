@@ -124,6 +124,26 @@
     padding: 1vh 1.8vh;
   }
 
+  .InfoBottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-bottom-column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vh;
+  }
+
+  .info-bottom-column h3 {
+    font-size: 1.5rem;
+  }
+
+  .info-bottom-column p {
+    font-size: 1.2rem;
+    padding-bottom: 2vh;
+  }
+
 }
 
 @media (min-width: 375px) {
@@ -258,6 +278,20 @@
   .InfoContainer {
     padding: 0vh 8vh;
   }
+
+  .InfoBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info-bottom-column h3 {
+    font-size: 1.6rem;
+  }
+
+  .info-bottom-column p {
+    font-size: 1.4rem;
+  }
   
 }
 
@@ -304,6 +338,14 @@
     padding: 0vh 10vh;
   }
 
+  .info-bottom-column h3 {
+    font-size: 1.8rem;
+  }
+
+  .info-bottom-column p {
+    font-size: 1.6rem;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -343,6 +385,13 @@
     padding: 0;
   }
 
+  .InfoBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+  }
+
   
 }
 
@@ -364,6 +413,14 @@
   .buttons-div-component {
     margin: 0;
     padding: 0;
+  }
+
+  .info-bottom-column h3 {
+    font-size: 2.2rem;
+  }
+
+  .info-bottom-column p {
+    font-size: 1.9rem;
   }
 
   

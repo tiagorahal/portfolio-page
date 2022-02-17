@@ -55,3 +55,12 @@ hr {
   margin: 10vh 0;
   padding: 0;
 }
+
+.info-bottom-column h3 {
+  color: #ff6b00;
+}
+
+.info-bottom-text {
+  color: white;
+}
+
