@@ -65,6 +65,7 @@
   .upper-section-project h2 {
     font-size: 2rem;
     text-align: center;
+    padding-top: 2vh;
   }
   
 
@@ -168,6 +169,10 @@
 
 .text-top-section {
   padding-left: 3vh;
+}
+
+.head-project {
+  display: flex;
 }
 
 }
