@@ -16,7 +16,7 @@ function Header() {
           <a href="/">Portfolio</a>
           <a href="/">About</a>
           <a href="/">Contact</a>
-          <a href="/">
+          <a className="email-icon" href="/">
             <MdOutlineEmail />
           </a>
         </div>
