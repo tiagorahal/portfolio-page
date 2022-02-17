@@ -1,10 +1,11 @@
 import React from 'react';
-import ProjectComponent from '../../components/projectComponent/projectComponent';
+import { ProjectComponentOne, ProjectComponentTwo } from '../../components/projectComponent/projectComponent';
 
 function ProjectBottom() {
   return (
     <div className="ProjectBottom container-fluid">
-      <ProjectComponent />
+      <ProjectComponentOne />
+      <ProjectComponentTwo />
     </div>
   );
 }

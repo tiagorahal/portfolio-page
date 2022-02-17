@@ -97,9 +97,6 @@
     margin: auto;
   }
 
-  .inner-content {
-    padding-top: 3vh;
-  }
 
   .project-title {
     font-size: 1.2rem;
@@ -123,7 +120,6 @@
     height: 45vh;
     margin: auto;
     margin-bottom: 2.5vh;
-    padding-top: 6vh;
   }
 
   .project-title {
@@ -211,9 +207,8 @@
   }
 
   .ProjectComponent {
+    padding: 2vh 0;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
   }
 
   .project-button {
@@ -225,7 +220,6 @@
     max-width: 35vh;
     height: 45vh;
     margin: auto;
-    padding-top: 6vh;
     margin-bottom: 2.5vh;
   }
 
@@ -262,7 +256,7 @@
     max-width: 35vh;
     height: 45vh;
     margin: auto;
-    padding-top: 6vh;
+    padding-top: 0vh;
     margin-bottom: 2.5vh;
   }
 
@@ -326,7 +320,7 @@
     max-width: 35vh;
     height: 45vh;
     margin: auto;
-    padding-top: 15vh;
+    padding-top: 10vh;
     margin-bottom: 2.5vh;
   }
 

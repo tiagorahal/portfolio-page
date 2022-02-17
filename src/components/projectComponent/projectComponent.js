@@ -4,7 +4,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-const mockData = [
+const mockDataOne = [
   {
     projectTitle: 'I AM TESTING THIS 01',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
@@ -13,18 +13,18 @@ const mockData = [
     projectTitle: 'I AM TESTING THIS 02',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
   },
+];
+
+const mockDataTwo = [
   {
-    projectTitle: 'I AM TESTING THIS 03',
+    projectTitle: 'I AM TESTING THIS 01',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
   },
   {
-    projectTitle: 'I AM TESTING THIS 04',
+    projectTitle: 'I AM TESTING THIS 02',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
   },
-  {
-    projectTitle: 'I AM TESTING THIS 05',
-    projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
-  },
+
 ];
 
 function ReturnProjects(props) {
@@ -43,10 +43,10 @@ function ReturnProjects(props) {
   );
 }
 
-function ProjectComponent() {
+function ProjectComponentOne() {
   return (
-    <div className="ProjectComponent row nav d-flex align-items-end justify-content-end">
-      {mockData.map((returnprojects) => (
+    <div className="ProjectComponent row">
+      {mockDataOne.map((returnprojects) => (
         <ReturnProjects
           projectTitle={returnprojects.projectTitle}
           projectText={returnprojects.projectText}
@@ -56,4 +56,17 @@ function ProjectComponent() {
   );
 }
 
-export default ProjectComponent;
+function ProjectComponentTwo() {
+  return (
+    <div className="ProjectComponentTwo row">
+      {mockDataTwo.map((returnprojects) => (
+        <ReturnProjects
+          projectTitle={returnprojects.projectTitle}
+          projectText={returnprojects.projectText}
+        />
+      ))}
+    </div>
+  );
+}
+
+export { ProjectComponentOne, ProjectComponentTwo };
