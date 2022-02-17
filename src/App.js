@@ -6,6 +6,7 @@ import './styles/queries.css';
 import './App.css';
 import './styles/header.css';
 import './styles/body.css';
+import './styles/projectTop.css';
 
 function App() {
   return (
