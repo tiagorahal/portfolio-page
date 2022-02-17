@@ -317,10 +317,10 @@
 @media (min-width: 1400px) {
 
   .inner-content {
-    max-width: 35vh;
-    height: 45vh;
+    max-width: 50vh;
+    height: 60vh;
     margin: auto;
-    padding-top: 10vh;
+    padding-top: 15vh;
     margin-bottom: 2.5vh;
   }
 

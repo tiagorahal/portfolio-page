@@ -45,7 +45,7 @@ function ReturnProjects(props) {
 
 function ProjectComponentOne() {
   return (
-    <div className="ProjectComponent row">
+    <div className="ProjectComponentOne row">
       {mockDataOne.map((returnprojects) => (
         <ReturnProjects
           projectTitle={returnprojects.projectTitle}
