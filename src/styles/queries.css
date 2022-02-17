@@ -136,12 +136,12 @@
   }
 
   .ProjectContainer {
-    padding: 4vh;
+    padding: 6vh 8vh;
   }
 
   .upper-section-project h2 {
-    font-size: 2.4rem;
-    border-top: #FF6B00;
+    font-size: 1.8rem;
+    border-top: #091E42;
     display: flex;
     align-items: center;
   }
@@ -150,7 +150,7 @@
     content: '';
     flex: 1;
     margin-left: 1rem;
-    height: 1px;
+    height: 2px;
     background-color: #000;
   }
 
