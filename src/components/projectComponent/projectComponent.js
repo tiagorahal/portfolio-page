@@ -8,28 +8,32 @@ const mockDataOne = [
   {
     projectTitle: 'I AM TESTING THIS 01',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
+    projectClass: 'projectOne inner-content justify-content-start',
   },
   {
     projectTitle: 'I AM TESTING THIS 02',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
+    projectClass: 'projectTwo inner-content justify-content-start',
   },
 ];
 
 const mockDataTwo = [
   {
-    projectTitle: 'I AM TESTING THIS 01',
+    projectTitle: 'I AM TESTING THIS 03',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
+    projectClass: 'projectThree inner-content justify-content-start',
   },
   {
-    projectTitle: 'I AM TESTING THIS 02',
+    projectTitle: 'I AM TESTING THIS 04',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
+    projectClass: 'projectFour inner-content justify-content-start',
   },
 
 ];
 
 function ReturnProjects(props) {
   return (
-    <div className="inner-content justify-content-start">
+    <div className={props.projectClass}>
       <p className="project-title">{props.projectTitle}</p>
       <p className="project-text">{props.projectText}</p>
       <div className="buttons-div-component">
@@ -50,6 +54,7 @@ function ProjectComponentOne() {
         <ReturnProjects
           projectTitle={returnprojects.projectTitle}
           projectText={returnprojects.projectText}
+          projectClass={returnprojects.projectClass}
         />
       ))}
     </div>
@@ -63,6 +68,7 @@ function ProjectComponentTwo() {
         <ReturnProjects
           projectTitle={returnprojects.projectTitle}
           projectText={returnprojects.projectText}
+          projectClass={returnprojects.projectClass}
         />
       ))}
     </div>

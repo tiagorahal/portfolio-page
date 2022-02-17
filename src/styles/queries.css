@@ -206,11 +206,6 @@
     background-color: #000;
   }
 
-  .ProjectComponent {
-    padding: 2vh 0;
-    display: flex;
-  }
-
   .project-button {
     font-size: 1.3rem;
     padding: 1vh 1.8vh;

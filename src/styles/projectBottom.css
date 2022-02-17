@@ -4,8 +4,32 @@
 
 .inner-content {
   background-image: url(../assets/images/mock_project.jpg);
+}
+
+.projectOne {
+  background-image: url(../assets/images/dwarves01.jpg);
+}
+
+.projectTwo {
+  background-image: url(../assets/images/dwarves03.jpg);
+}
+
+.projectThree {
+  background-image: url(../assets/images/dwarves04.jpg);
+}
+
+.projectFour {
+  background-image: url(../assets/images/dwarves04.png);
+}
+
+.inner-content,
+.projectOne,
+.projectTwo,
+.projectThree,
+.projectFour {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border: solid red 1px;
   text-align: start;
 }
