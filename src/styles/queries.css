@@ -115,12 +115,13 @@
   .info-title {
     color: #FF6B00;
     font-size: 2.4rem;
-    text-align: center;
     font-weight: 700;
   }
 
-  .info-text {
+  .resume-button {
     text-align: center;
+    font-size: 1.3rem;
+    padding: 1vh 1.8vh;
   }
 
 }
