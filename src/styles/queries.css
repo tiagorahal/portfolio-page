@@ -112,6 +112,17 @@
     padding: 0;
   }
 
+  .info-title {
+    color: #FF6B00;
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .info-text {
+    text-align: center;
+  }
+
 }
 
 @media (min-width: 375px) {
@@ -152,6 +163,16 @@
     color: #fff;
   }
 
+  .info-text {
+    text-align: start;
+  }
+
+  .info-title {
+    color: #FF6B00;
+    font-size: 2.4rem;
+    text-align: start;
+    font-weight: 700;
+  }
 
   
 }
@@ -211,6 +232,11 @@
     padding: 1vh 1.8vh;
   }
 
+  .resume-button {
+    font-size: 1.3rem;
+    padding: 1vh 1.8vh;
+  }
+
   .inner-content {
     max-width: 35vh;
     height: 45vh;
@@ -226,6 +252,10 @@
   .buttons-div-component {
     margin: 0;
     padding: 0;
+  }
+
+  .InfoContainer {
+    padding: 0vh 8vh;
   }
   
 }
@@ -265,7 +295,13 @@
     padding: 0;
   }
 
-  
+  .info-text {
+    font-size: 1.5rem;
+  }
+
+  .InfoContainer {
+    padding: 0vh 10vh;
+  }
 
 }
 

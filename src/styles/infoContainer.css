@@ -1,0 +1,10 @@
+.InfoContainer {
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  background-color: black;
+  border: solid red 1px;
+}
+
+.info-text {
+  color: #fff;
+}

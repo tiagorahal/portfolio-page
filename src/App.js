@@ -8,6 +8,7 @@ import './styles/header.css';
 import './styles/body.css';
 import './styles/projectTop.css';
 import './styles/projectBottom.css';
+import './styles/infoContainer.css';
 
 function App() {
   return (
