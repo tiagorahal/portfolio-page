@@ -5,7 +5,7 @@ const infoText = 'Hello I’m a software developer! I can help you build a produ
 
 function InfoContainer() {
   return (
-    <div className="InfoContainer col-sm-12">
+    <div className="InfoContainer col-sm-12" id="info-container">
       <div className="upper-info col-sm-12 col-md-6 col-lg-5 col-xl-4">
         <p className="info-title">
           About me
