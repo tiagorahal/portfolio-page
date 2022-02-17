@@ -15,11 +15,11 @@ function ProjectTop() {
           <div className="upper-section-project-text col-sm-12 col-lg-5">
             <h3>Multi-Post Stories</h3>
             <p>{textContent}</p>
-            <div>
-              <button type="button">css</button>
-              <button type="button">css</button>
-              <button type="button">css</button>
-              <button type="button">css</button>
+            <div className="buttons-div">
+              <button className="toolButton" type="button">Bootstrap</button>
+              <button className="toolButton" type="button">Javascript</button>
+              <button className="toolButton" type="button">React</button>
+              <button className="toolButton" type="button">Redux</button>
             </div>
             <a href="/">
               <button className="project-button" type="button">

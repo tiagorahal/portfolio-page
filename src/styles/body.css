@@ -6,3 +6,14 @@
 .project-button {
   
 }
+
+.buttons-div {
+  padding: 1vh 0;
+}
+
+.toolButton {
+  background-color: #fff;
+  border: solid grey 1px;
+  font-size: 1.2rem;
+  margin: 0.5vh 0.5vh;
+}
