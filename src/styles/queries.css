@@ -72,6 +72,12 @@
     font-size: 1.3rem;
     padding: 1vh 1.8vh;
   }
+
+  .inner-content {
+    max-width: 40vh;
+    height: 40vh;
+    margin: auto;
+  }
   
 
   
@@ -164,6 +170,12 @@
     font-size: 1.3rem;
     padding: 1vh 1.8vh;
   }
+
+  .inner-content {
+    max-width: 40vh;
+    height: 40vh;
+    margin: auto;
+  }
   
 
 
@@ -184,6 +196,11 @@
 
 .head-project {
   display: flex;
+}
+
+.inner-content {
+  max-width: 33vh;
+  margin: auto;
 }
 
 }
