@@ -2,7 +2,7 @@ import React from 'react';
 import TopSection from '../../components/topSection/topSection';
 import ProjectContainer from '../projectContainer/projectContainer';
 import InfoContainer from '../infoContainer/infoContainer';
-import '../../styles/topSection.css';
+import ContactContainer from '../contactContainer/contactContainer';
 
 function Body() {
   return (
@@ -10,6 +10,7 @@ function Body() {
       <TopSection />
       <ProjectContainer />
       <InfoContainer />
+      <ContactContainer />
     </div>
   );
 }
