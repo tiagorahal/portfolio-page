@@ -89,3 +89,15 @@ hr {
   background-size: cover;
   background-blend-mode: multiply;
 }
+
+.links-desktop a:focus,
+.project-button-component:focus,
+.resume-link:focus {
+  color: #fff;
+}
+
+.links-column-links-footer:focus {
+  color: #505f79;
+}
+
+
