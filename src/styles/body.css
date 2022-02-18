@@ -85,7 +85,7 @@ hr {
 }
 
 .InfoContainer {
-  background:#1c1a19fa;
+  background: #1c1a19fa;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -103,5 +103,3 @@ hr {
 .links-column-links-footer:hover {
   color: #505f79;
 }
-
-
