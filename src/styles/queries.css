@@ -71,6 +71,11 @@
     margin: auto;
     margin-bottom: 2.5vh;
   }
+  .toolButton-component,
+  .project-text {
+    font-size: 0.7rem;
+  }
+
 
   .project-title {
     font-size: 1.2rem;
@@ -158,6 +163,11 @@
     padding-left: 3vh;
   }
 
+  .toolButton-component,
+  .project-text {
+    font-size: 0.7rem;
+  }
+
   .ContactText {
     margin-left: 0;
   }
@@ -187,6 +197,11 @@
   .header-left {
     justify-content: center;
     padding-left: 8vh;
+  }
+
+  .toolButton-component,
+  .project-text {
+    font-size: 1rem;
   }
 
   .header-right-mobile {
@@ -291,6 +306,11 @@
 @media (min-width: 992px) {
   .description-text-2 strong {
     font-size: 1.4rem;
+  }
+
+  .toolButton-component,
+  .project-text {
+    font-size: 0.9rem;
   }
 
   .description-text-3 {
@@ -407,6 +427,11 @@
   .project-title {
     font-size: 1.9rem;
     font-weight: 700;
+  }
+
+  .toolButton-component,
+  .project-text {
+    font-size: 1.3rem;
   }
 
   .buttons-div-component {
