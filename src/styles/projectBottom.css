@@ -12,7 +12,9 @@
 }
 
 .projectThree {
-  background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
+  background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/math-magician.png");
+  background-position: end;
+  background-size: cover;
 }
 
 .projectFour {
@@ -20,7 +22,6 @@
 }
 
 .projectTwo,
-.projectThree,
 .projectFour {
   background-repeat: no-repeat;
   background-size: cover;
