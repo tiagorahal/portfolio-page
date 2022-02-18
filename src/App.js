@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/topSection.css';
 import './styles/queries.css';
 import './App.css';
+import './styles/projectContainer.css';
 import './styles/header.css';
 import './styles/body.css';
 import './styles/projectTop.css';

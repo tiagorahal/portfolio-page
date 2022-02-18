@@ -2,27 +2,22 @@
   margin-top: 3vh;
 }
 
-.inner-content {
-  background-image: url(../assets/images/mock_project.jpg);
-}
-
 .projectOne {
-  background-image: url(../assets/images/dwarves01.jpg);
+  background:linear-gradient( rgba(0, 0, 0, 0.795) 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
 }
 
 .projectTwo {
-  background-image: url(../assets/images/dwarves03.jpg);
+  background:linear-gradient( rgba(0, 0, 0, 0.795) 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
 }
 
 .projectThree {
-  background-image: url(../assets/images/dwarves04.jpg);
+  background:linear-gradient( rgba(0, 0, 0, 0.795) 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
 }
 
 .projectFour {
-  background-image: url(../assets/images/dwarves04.png);
+  background:linear-gradient( rgba(0, 0, 0, 0.795) 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
 }
 
-.inner-content,
 .projectOne,
 .projectTwo,
 .projectThree,
