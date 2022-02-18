@@ -39,14 +39,14 @@ const mockDataTwo = [
     projectLink: 'https://github.com/tiagorahal/math-magicians',
   },
   {
-    projectTitle: 'I AM TESTING THIS 04',
-    projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
+    projectTitle: 'Space Travelers Hub',
+    projectText: 'Single Page Application that fetch data from SpaceX API and lists the rockets and missions.',
     projectClass: 'projectFour inner-content d-flex flex-column justify-content-end p-1',
-    firstButton: 'CSS',
-    secondButton: 'JavaScript',
-    thirdButton: 'React',
-    fourthButton: 'Redux',
-    projectLink: 'https://github.com/tiagorahal/awesome-resturants',
+    firstButton: 'JavaScrip',
+    secondButton: 'React',
+    thirdButton: 'Redux',
+    fourthButton: 'Webpack',
+    projectLink: 'https://github.com/tiagorahal/space-travaler-hub',
   },
 
 ];

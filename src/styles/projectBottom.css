@@ -9,6 +9,10 @@
 
 .projectTwo {
   background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: start;
 }
 
 .projectThree {
@@ -18,13 +22,7 @@
 }
 
 .projectFour {
-  background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
-}
-
-.projectTwo,
-.projectFour {
-  background-repeat: no-repeat;
+  background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/space.png");
   background-size: cover;
-  background-position: center;
-  text-align: start;
+  background-position: start;
 }
