@@ -67,6 +67,15 @@ hr {
   padding: 0;
 }
 
+.Footer hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 6px solid black;
+  margin: 1vh 0;
+  padding: 0;
+}
+
 .info-bottom-column h3 {
   color: #ff6b00;
 }

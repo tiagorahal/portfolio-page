@@ -11,6 +11,7 @@ import './styles/projectTop.css';
 import './styles/projectBottom.css';
 import './styles/infoContainer.css';
 import './styles/contactContainer.css';
+import './styles/footer.css';
 
 function App() {
   return (
