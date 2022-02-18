@@ -3,22 +3,22 @@
 }
 
 .projectOne {
-  background:linear-gradient( rgba(0, 0, 0, 0.795) 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
+  background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/restaurants.png");
+  background-position: start;
 }
 
 .projectTwo {
-  background:linear-gradient( rgba(0, 0, 0, 0.795) 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
+  background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
 }
 
 .projectThree {
-  background:linear-gradient( rgba(0, 0, 0, 0.795) 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
+  background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
 }
 
 .projectFour {
-  background:linear-gradient( rgba(0, 0, 0, 0.795) 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
+  background:linear-gradient( #1c1a19dc 100%, rgba(0, 0, 0, 0.5)100%),url("../assets/images/covid-app.png");
 }
 
-.projectOne,
 .projectTwo,
 .projectThree,
 .projectFour {
