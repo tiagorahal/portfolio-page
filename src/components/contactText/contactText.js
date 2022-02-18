@@ -4,7 +4,7 @@ const contactText = "I'm always interested in hearing about new projects, so if 
 
 function ContactText() {
   return (
-    <div className="ContactText col-sm-12 col-md-8 col-lg-6 d-flex col-xl-5 flex-column justify-content-center align-items-center">
+    <div id="Contact" className="ContactText col-sm-12 col-md-8 col-lg-6 d-flex col-xl-5 flex-column justify-content-center align-items-center">
       <p>
         {contactText}
       </p>

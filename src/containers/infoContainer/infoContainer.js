@@ -14,7 +14,7 @@ function InfoContainer() {
           {infoText}
         </p>
         <button className="resume-button" type="button">
-          Get My Resume
+          <a className="resume-link" href="https://docs.google.com/document/d/1FHQWF2DhzWs8YRAjiNbP4Zld43mEVVLcThZ1nm7VqvY/edit?usp=sharing" target="_blank" rel="noreferrer">Get My Resume</a>
         </button>
       </div>
       <hr />

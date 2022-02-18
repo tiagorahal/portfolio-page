@@ -62,7 +62,10 @@
 /* Min Width */
 
 @media (min-width: 320px) {
-  .inner-content {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour {
     max-width: 35vh;
     height: 45vh;
     margin: auto;
@@ -128,7 +131,10 @@
 }
 
 @media (min-width: 375px) {
-  .inner-content {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour {
     max-width: 35vh;
     height: 45vh;
     margin: auto;
@@ -232,7 +238,10 @@
     padding: 1vh 1.8vh;
   }
 
-  .inner-content {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour {
     max-width: 35vh;
     height: 45vh;
     margin: auto;
@@ -291,7 +300,10 @@
     display: flex;
   }
 
-  .inner-content {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour {
     max-width: 35vh;
     height: 45vh;
     margin: auto;
@@ -376,7 +388,10 @@
 }
 
 @media (min-width: 1400px) {
-  .inner-content {
+  .projectOne,
+  .projectTwo,
+  .projectThree,
+  .projectFour {
     max-width: 50vh;
     height: 60vh;
     margin: auto;
@@ -385,7 +400,7 @@
   }
 
   .project-title {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     font-weight: 700;
   }
 
@@ -405,5 +420,9 @@
 
   .info-bottom-column p {
     font-size: 1.9rem;
+  }
+
+  .inner-content {
+    font-size: 1.5rem;
   }
 }

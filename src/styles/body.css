@@ -85,7 +85,21 @@ hr {
 }
 
 .InfoContainer {
-  background: url(../assets/images/background-info02.png) #1c1a19fa;
+  background: #1c1a19fa;
   background-size: cover;
   background-blend-mode: multiply;
+}
+
+.links-desktop a:focus,
+.project-button-component:focus,
+.resume-link:focus,
+.links-desktop a:hover,
+.project-button-component:hover,
+.resume-link:hover {
+  color: #fff;
+}
+
+.links-column-links-footer:focus,
+.links-column-links-footer:hover {
+  color: #505f79;
 }

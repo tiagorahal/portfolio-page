@@ -1,7 +1,7 @@
 import React from 'react';
-import MockProject from '../../assets/images/mock_project.jpg';
+import MockProject from '../../assets/images/pokemon.png';
 
-const textContent = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, debitis molestiae tempore corporis error provident mollitia dolorem facilis? Dolore voluptatibus, laborum impedit similique repellendus asperiores placeat possimus sed? Dicta, accusantium?';
+const textContent = 'This is a mobile web app the provides daily updates on the global spread of covid-19. The data is sourced from the Narrativa Data API. The project is build with React a JavaScript library, and Redux for state management.';
 
 function ProjectTop() {
   return (
@@ -13,15 +13,14 @@ function ProjectTop() {
             <img src={MockProject} className="img-fluid" alt="project" />
           </figure>
           <div className="upper-section-project-text col-sm-12 col-lg-5 col-xl-3">
-            <h3>Multi-Post Stories</h3>
+            <h3>Pokemon Trading Cars</h3>
             <p>{textContent}</p>
             <div className="buttons-div">
-              <button className="toolButton" type="button">Bootstrap</button>
-              <button className="toolButton" type="button">Javascript</button>
+              <button className="toolButton" type="button">JavaScript</button>
               <button className="toolButton" type="button">React</button>
               <button className="toolButton" type="button">Redux</button>
             </div>
-            <a href="/">
+            <a href="https://github.com/tiagorahal/pokemon-tcg" target="_blank" rel="noreferrer">
               <button className="project-button" type="button">
                 See Project
               </button>

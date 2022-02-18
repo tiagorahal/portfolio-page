@@ -2,33 +2,24 @@
   margin-top: 3vh;
 }
 
-.inner-content {
-  background-image: url(../assets/images/mock_project.jpg);
-}
-
 .projectOne {
-  background-image: url(../assets/images/dwarves01.jpg);
+  background: linear-gradient(#1c1a19dc 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/images/restaurants.png");
 }
 
 .projectTwo {
-  background-image: url(../assets/images/dwarves03.jpg);
-}
-
-.projectThree {
-  background-image: url(../assets/images/dwarves04.jpg);
-}
-
-.projectFour {
-  background-image: url(../assets/images/dwarves04.png);
-}
-
-.inner-content,
-.projectOne,
-.projectTwo,
-.projectThree,
-.projectFour {
+  background: linear-gradient(#1c1a19dc 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/images/covid-app.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: start;
+}
+
+.projectThree {
+  background: linear-gradient(#1c1a19dc 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/images/math-magician.png");
+  background-size: cover;
+}
+
+.projectFour {
+  background: linear-gradient(#1c1a19dc 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/images/space.png");
+  background-size: cover;
 }
