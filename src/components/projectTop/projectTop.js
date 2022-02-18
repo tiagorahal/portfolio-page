@@ -5,7 +5,7 @@ const textContent = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. B
 
 function ProjectTop() {
   return (
-    <div className="ProjectTop">
+    <div className="ProjectTop" id="project-container">
       <div className="upper-section-project container-fluid">
         <h2>My Recent Works</h2>
         <div className="head-project row">

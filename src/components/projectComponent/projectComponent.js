@@ -9,11 +9,13 @@ const mockDataOne = [
     projectTitle: 'I AM TESTING THIS 01',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
     projectClass: 'projectOne inner-content justify-content-start',
+    display: 'display: none',
   },
   {
     projectTitle: 'I AM TESTING THIS 02',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
     projectClass: 'projectTwo inner-content justify-content-start',
+    display: 'display: none',
   },
 ];
 
@@ -22,11 +24,13 @@ const mockDataTwo = [
     projectTitle: 'I AM TESTING THIS 03',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
     projectClass: 'projectThree inner-content justify-content-start',
+    display: 'display: block',
   },
   {
     projectTitle: 'I AM TESTING THIS 04',
     projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
     projectClass: 'projectFour inner-content justify-content-start',
+    display: 'display:none',
   },
 
 ];

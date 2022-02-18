@@ -40,3 +40,32 @@
 .buttons-div-component {
   margin-bottom: 3vh;
 }
+
+.resume-button {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 6px solid white;
+  margin: 10vh 0;
+  padding: 0;
+}
+
+.info-bottom-column h3 {
+  color: #ff6b00;
+}
+
+.info-bottom-text {
+  color: white;
+}
+
+.InfoContainer {
+  background: url(../assets/images/background-info02.png) #1c1a19fa;
+  background-size: cover;
+  background-blend-mode: multiply;
+}

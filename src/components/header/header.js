@@ -13,8 +13,8 @@ function Header() {
       </div>
       <div className="header-right nav col-lg-7 col-md-6 col-sm justify-content-end">
         <div className="links-desktop">
-          <a href="/">Portfolio</a>
-          <a href="/">About</a>
+          <a href="#project-container">Portfolio</a>
+          <a href="#info-container">About</a>
           <a href="/">Contact</a>
           <a className="email-icon" href="/">
             <MdOutlineEmail />

@@ -1,12 +1,4 @@
-/* stylelint-disable */
-
 /* Max Width */
-
-@media (max-width: 575.98px) {
-
-  
-}
-
 @media (max-width: 767.98px) {
   .header-right {
     display: none;
@@ -35,7 +27,6 @@
     padding-top: 15px;
     height: 40%;
   }
-  
 
   .links-column-links {
     padding: 0 5px;
@@ -48,7 +39,7 @@
 
   .text-top-section h3 {
     font-size: 2.6rem;
-    color: #FF6B00;
+    color: #ff6b00;
   }
 
   .header-right a {
@@ -66,45 +57,21 @@
     font-size: 1.3rem;
     padding: 1vh 1.8vh;
   }
-
-
-  
-
-  
 }
-
-@media (max-width: 991.98px) {
-  
-  
-}
-
-@media (max-width: 1199.98px) {
-  
-}
-
-@media (max-width: 1399.98px) {
-  
-}
-
 
 /* Min Width */
 
 @media (min-width: 320px) {
-
   .inner-content {
     max-width: 35vh;
     height: 45vh;
     margin: auto;
+    margin-bottom: 2.5vh;
   }
-
 
   .project-title {
     font-size: 1.2rem;
     font-weight: 700;
-  }
-
-  .inner-content {
-    margin-bottom: 2.5vh;
   }
 
   .buttons-div-component {
@@ -112,6 +79,36 @@
     padding: 0;
   }
 
+  .info-title {
+    color: #ff6b00;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .resume-button {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1vh 1.8vh;
+  }
+
+  .InfoBottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-bottom-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-bottom-column h3 {
+    font-size: 1.5rem;
+  }
+
+  .info-bottom-column p {
+    font-size: 1.2rem;
+    padding-bottom: 2vh;
+  }
 }
 
 @media (min-width: 375px) {
@@ -133,18 +130,13 @@
   }
 }
 
-@media (min-width: 425px) {
-  
-}
-
 @media (min-width: 576px) {
-
   .text-top-section {
     padding-left: 3vh;
   }
 
   .links-column-links {
-    transition: all .2s ease-in-out;;
+    transition: all 0.2s ease-in-out;
   }
 
   .links-column-links:hover {
@@ -152,8 +144,16 @@
     color: #fff;
   }
 
+  .info-text {
+    text-align: start;
+  }
 
-  
+  .info-title {
+    color: #ff6b00;
+    font-size: 2.4rem;
+    text-align: start;
+    font-weight: 700;
+  }
 }
 
 @media (min-width: 768px) {
@@ -177,7 +177,7 @@
 
   .text-top-section h3 {
     font-size: 2.6rem;
-    color: #FF6B00;
+    color: #ff6b00;
   }
 
   .header-right a {
@@ -193,11 +193,11 @@
 
   .upper-section-project h2 {
     font-size: 1.8rem;
-    border-top: #091E42;
+    border-top: #091e42;
     display: flex;
     align-items: center;
   }
-  
+
   .upper-section-project h2::after {
     content: '';
     flex: 1;
@@ -207,6 +207,11 @@
   }
 
   .project-button {
+    font-size: 1.3rem;
+    padding: 1vh 1.8vh;
+  }
+
+  .resume-button {
     font-size: 1.3rem;
     padding: 1vh 1.8vh;
   }
@@ -227,7 +232,24 @@
     margin: 0;
     padding: 0;
   }
-  
+
+  .InfoContainer {
+    padding: 0 8vh;
+  }
+
+  .InfoBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info-bottom-column h3 {
+    font-size: 1.6rem;
+  }
+
+  .info-bottom-column p {
+    font-size: 1.4rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -237,7 +259,7 @@
 
   .description-text-3 {
     font-size: 1.3rem;
-  } 
+  }
 
   .text-top-section {
     padding-left: 3vh;
@@ -251,7 +273,7 @@
     max-width: 35vh;
     height: 45vh;
     margin: auto;
-    padding-top: 0vh;
+    padding-top: 0;
     margin-bottom: 2.5vh;
   }
 
@@ -265,27 +287,39 @@
     padding: 0;
   }
 
-  
+  .info-text {
+    font-size: 1.4rem;
+  }
 
+  .InfoContainer {
+    padding: 0 10vh;
+  }
+
+  .info-bottom-column h3 {
+    font-size: 1.8rem;
+  }
+
+  .info-bottom-column p {
+    font-size: 1.6rem;
+  }
 }
 
 @media (min-width: 1200px) {
-
   .description-text-2 strong {
     font-size: 1.7rem;
   }
-  
+
   .description-text-3 {
     font-size: 1.5rem;
-  } 
-  
+  }
+
   .text-top-section {
     padding-left: 3vh;
   }
 
   .text-top-section h3 {
     font-size: 3.5rem;
-    color: #FF6B00;
+    color: #ff6b00;
   }
 
   .ProjectContainer {
@@ -306,11 +340,15 @@
     padding: 0;
   }
 
-  
+  .InfoBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+  }
 }
 
 @media (min-width: 1400px) {
-
   .inner-content {
     max-width: 50vh;
     height: 60vh;
@@ -329,5 +367,15 @@
     padding: 0;
   }
 
-  
+  .info-text {
+    font-size: 1.7rem;
+  }
+
+  .info-bottom-column h3 {
+    font-size: 2.2rem;
+  }
+
+  .info-bottom-column p {
+    font-size: 1.9rem;
+  }
 }
