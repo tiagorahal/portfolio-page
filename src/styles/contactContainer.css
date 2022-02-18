@@ -4,10 +4,10 @@
 }
 
 .ContactText {
-  font-size: bolder;
   text-align: start;
 }
- .contact-mail a {
-   text-decoration: none;
-   color: #fff;
- }
+
+.contact-mail a {
+  text-decoration: none;
+  color: #fff;
+}
