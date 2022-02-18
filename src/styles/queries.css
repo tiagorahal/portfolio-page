@@ -107,6 +107,7 @@
   .ContactText {
     font-size: 1.7rem;
     font-weight: 900;
+    margin-left: 2.6vh;
   }
 
   .info-bottom-column h3 {
@@ -155,6 +156,10 @@
 @media (min-width: 576px) {
   .text-top-section {
     padding-left: 3vh;
+  }
+
+  .ContactText {
+    margin-left: 0;
   }
 
   .links-column-links {
