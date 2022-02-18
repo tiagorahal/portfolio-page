@@ -10,9 +10,9 @@ import {
 
 function Footer() {
   return (
-    <div className="Footer">
+    <div className="Footer col">
       <hr />
-      <div className="links-column-footer">
+      <div className="links-column-footer col-sm-10 col-md-4 col-lg-5 col-xl-3  m-auto">
         <a href="https://github.com/tiagorahal" target="_blank" className="links-column-links-footer">
           <FaGithub />
         </a>

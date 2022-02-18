@@ -119,6 +119,13 @@
     padding-top: 5vh;
     padding-bottom: 5vh;
   }
+
+  .links-column-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2vh;
+
+  }
 }
 
 @media (min-width: 375px) {
@@ -318,6 +325,10 @@
 
   .info-bottom-column p {
     font-size: 1.6rem;
+  }
+
+  .links-column-links-footer {
+    font-size: 3rem;
   }
 }
 
