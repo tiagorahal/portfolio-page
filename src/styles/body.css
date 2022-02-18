@@ -58,6 +58,15 @@
   color: #fff;
 }
 
+.Footer hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 6px solid black;
+  margin: 1vh 0;
+  padding: 0;
+}
+
 hr {
   display: block;
   height: 1px;
