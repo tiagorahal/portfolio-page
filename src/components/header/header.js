@@ -16,7 +16,7 @@ function Header() {
           <a href="#project-container">Portfolio</a>
           <a href="#info-container">About</a>
           <a href="/">Contact</a>
-          <a className="email-icon" href="/">
+          <a className="email-icon" href="mailto:rahal.aires@gmail.com">
             <MdOutlineEmail />
           </a>
         </div>
