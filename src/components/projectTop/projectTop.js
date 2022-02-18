@@ -1,7 +1,7 @@
 import React from 'react';
 import MockProject from '../../assets/images/pokemon.png';
 
-const textContent = 'This is a mobile web app the provides daily updates on the global spread of covid-19. The data is sourced from the Narrativa Data API. The project is build with React a JavaScript library, and Redux for state management.';
+const textContent = 'A webapp dedicated to showing information about Pokémon Trading Cards using Pokémon TCG API and Involvement API.';
 
 function ProjectTop() {
   return (
