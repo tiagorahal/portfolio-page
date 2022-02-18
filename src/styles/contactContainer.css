@@ -7,6 +7,10 @@
   text-align: start;
 }
 
+.contact-mail {
+  margin-top: 3vh;
+}
+
 .contact-mail a {
   text-decoration: none;
   color: #fff;
