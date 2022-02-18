@@ -13,7 +13,7 @@ function ProjectTop() {
             <img src={MockProject} className="img-fluid" alt="project" />
           </figure>
           <div className="upper-section-project-text col-sm-12 col-lg-5 col-xl-3">
-            <h3>Covid News App</h3>
+            <h3>Pokemon Trading Cars</h3>
             <p>{textContent}</p>
             <div className="buttons-div">
               <button className="toolButton" type="button">JavaScript</button>
