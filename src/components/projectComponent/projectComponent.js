@@ -16,14 +16,14 @@ const mockDataOne = [
     projectLink: 'https://github.com/tiagorahal/awesome-resturants',
   },
   {
-    projectTitle: 'I AM TESTING THIS 02',
-    projectText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula vitae dui molestie tristique blandit a nibh. Fusce id lorem tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. ',
+    projectTitle: 'Covid News App',
+    projectText: 'This is a mobile web app the provides daily updates on the global spread of covid-19. The data is sourced from the Narrativa Data API. The project is build with React a JavaScript library, and Redux for state management.',
     projectClass: 'projectTwo inner-content d-flex flex-column justify-content-end p-1',
     firstButton: 'CSS',
     secondButton: 'JavaScript',
     thirdButton: 'React',
     fourthButton: 'Redux',
-    projectLink: 'https://github.com/tiagorahal/awesome-resturants',
+    projectLink: 'https://github.com/tiagorahal/covid-tracker',
   },
 ];
 
