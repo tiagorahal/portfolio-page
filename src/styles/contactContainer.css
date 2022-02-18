@@ -1,0 +1,13 @@
+.ContactContainer {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.ContactText {
+  font-size: bolder;
+  text-align: start;
+}
+ .contact-mail a {
+   text-decoration: none;
+   color: #fff;
+ }

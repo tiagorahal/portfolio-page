@@ -4,10 +4,13 @@ const contactText = "I'm always interested in hearing about new projects, so if 
 
 function ContactText() {
   return (
-    <div className="ContactText col-sm-12 col-lg-6">
+    <div className="ContactText col-sm-12 col-md-8 col-lg-6 d-flex flex-column justify-content-center align-items-center">
       <p>
         {contactText}
       </p>
+      <button className="contact-mail" type="button">
+        <a href="mailto:rahal.aires@gmail.com">Email</a>
+      </button>
     </div>
   );
 }

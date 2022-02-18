@@ -27,6 +27,17 @@
   margin: 0.5vh 0.7vh 0.5vh 0;
 }
 
+.contact-mail {
+  font-weight: 900;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 1vh 1.8vh;
+}
+
 .project-button-component {
   background-color: #ff6b00;
   border: none;
