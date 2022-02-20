@@ -9,7 +9,7 @@ function ContactText() {
         {contactText}
       </p>
       <button className="contact-mail" type="button">
-        <a href="mailto:rahal.aires@gmail.com?subject=Portfolio interest>Email</a>
+        <a href="mailto:rahal.aires@gmail.com?subject=Portfolio interest">Email</a>
       </button>
     </div>
   );
