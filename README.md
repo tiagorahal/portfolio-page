@@ -7,8 +7,10 @@
 
 ## Built With
 
+- Figma
 - JavaScript
 - React
+- Redux
 - Bootstrap
 
 ### Prerequisites
