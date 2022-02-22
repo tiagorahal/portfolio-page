@@ -1,5 +1,4 @@
 /* eslint-disable prefer-template */
-/* eslint-disable react/jsx-key */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 import React from 'react';
@@ -14,6 +13,7 @@ const mockDataOne = [
     thirdButton: 'React & Redux',
     fourthButton: 'Ruby on Rails',
     projectLink: 'https://github.com/tiagorahal/awesome-resturants',
+    keys: 'one',
   },
   {
     projectTitle: 'Covid News App',
@@ -24,6 +24,7 @@ const mockDataOne = [
     thirdButton: 'React',
     fourthButton: 'Redux',
     projectLink: 'https://github.com/tiagorahal/covid-tracker',
+    keys: 'two',
   },
 ];
 
@@ -37,6 +38,7 @@ const mockDataTwo = [
     thirdButton: 'JavaScript',
     fourthButton: 'React',
     projectLink: 'https://github.com/tiagorahal/math-magicians',
+    keys: 'three',
   },
   {
     projectTitle: 'Space Travelers Hub',
@@ -47,22 +49,23 @@ const mockDataTwo = [
     thirdButton: 'Redux',
     fourthButton: 'Webpack',
     projectLink: 'https://github.com/tiagorahal/space-travaler-hub',
+    keys: 'four',
   },
 
 ];
 
 function ReturnProjects(props) {
   return (
-    <div className={props.projectClass}>
-      <p className="project-title">{props.projectTitle}</p>
-      <p className="project-text">{props.projectText}</p>
+    <div className={props.projectClass} key={props.projectClass}>
+      <p className="project-title" key={props.projectTitle}>{props.projectTitle}</p>
+      <p className="project-text" key={props.keys}>{props.projectText}</p>
       <div className="buttons-div-component">
-        <button className="toolButton-component" type="button">{props.firstButton}</button>
-        <button className="toolButton-component" type="button">{props.secondButton}</button>
-        <button className="toolButton-component" type="button">{props.thirdButton}</button>
-        <button className="toolButton-component" type="button">{props.fourthButton}</button>
+        <button className="toolButton-component" type="button" key={props.firstButton}>{props.firstButton}</button>
+        <button className="toolButton-component" type="button" key={props.secondButton}>{props.secondButton}</button>
+        <button className="toolButton-component" type="button" key={props.thirdButton}>{props.thirdButton}</button>
+        <button className="toolButton-component" type="button" key={props.fourthButton}>{props.fourthButton}</button>
       </div>
-      <a className="project-button-component text-center" href={props.projectLink} target="_blank" rel="noreferrer">See Project</a>
+      <a className="project-button-component text-center" href={props.projectLink} target="_blank" rel="noreferrer" key={props.projectLink}>See Project</a>
     </div>
   );
 }
@@ -72,6 +75,7 @@ function ProjectComponentOne() {
     <div className="ProjectComponentOne row">
       {mockDataOne.map((returnprojects) => (
         <ReturnProjects
+          key={returnprojects.keys}
           projectTitle={returnprojects.projectTitle}
           projectText={returnprojects.projectText}
           projectClass={returnprojects.projectClass}
@@ -91,6 +95,7 @@ function ProjectComponentTwo() {
     <div className="ProjectComponentTwo row">
       {mockDataTwo.map((returnprojects) => (
         <ReturnProjects
+          key={returnprojects.keys}
           projectTitle={returnprojects.projectTitle}
           projectText={returnprojects.projectText}
           projectClass={returnprojects.projectClass}
