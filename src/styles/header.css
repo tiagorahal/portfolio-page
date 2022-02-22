@@ -16,6 +16,17 @@
   color: #fff;
 }
 
+.hidden-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.hidden-link:focus,
+.hidden-link:hover  {
+  color: #fff;
+}
+
 #hidden-mobile-div {
   position: fixed;
   top: 0;

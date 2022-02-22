@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-condition */
 /* eslint-disable no-cond-assign */
 import React from 'react';
 import { MdOutlineEmail } from 'react-icons/md';
@@ -30,7 +31,11 @@ function Header() {
         </div>
       </div>
       <div id="hidden-mobile-div">
-        <h1>TESTING THIS THING HERE, BE PLEASE WAIT</h1>
+        <a className="hidden-link" href="#project-container">Portfolio</a>
+        <br />
+        <a className="hidden-link" href="#info-container">About</a>
+        <br />
+        <a className="hidden-link" href="#Contact">Contact</a>
       </div>
     </div>
   );
