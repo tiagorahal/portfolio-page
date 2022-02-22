@@ -20,7 +20,7 @@ function Header() {
       <div className="header-left nav col-lg-4 col-md-6 col-sm-6 align-items-center">
         <h1 className="col">Tiago Rahal</h1>
         <div className="header-right-mobile col-sm-4">
-          <button className="header-right-mobile-button" type="button" onClick={clickHandlerShow}>
+          <button className="header-right-mobile-button d-flex" type="button" onClick={clickHandlerShow}>
             <AiOutlineBars />
           </button>
         </div>
