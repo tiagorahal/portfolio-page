@@ -163,6 +163,10 @@
     padding-left: 3vh;
   }
 
+  .hidden-mobile-div {
+    display: none;
+  }
+
   .toolButton-component,
   .project-text {
     font-size: 0.7rem;
