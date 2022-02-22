@@ -5,9 +5,14 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { AiOutlineBars } from 'react-icons/ai';
 
 function Header() {
-  function clickHandler() {
+  function clickHandlerShow() {
     if (document.getElementById('hidden-mobile-div').style.display = 'none') {
       document.getElementById('hidden-mobile-div').style.display = 'block';
+    }
+  }
+  function clickHandlerHide() {
+    if (document.getElementById('hidden-mobile-div').style.display = 'block') {
+      document.getElementById('hidden-mobile-div').style.display = 'none';
     }
   }
   return (
@@ -15,7 +20,7 @@ function Header() {
       <div className="header-left nav col-lg-4 col-md-6 col-sm-6 align-items-center">
         <h1 className="col">Tiago Rahal</h1>
         <div className="header-right-mobile col-sm-4">
-          <button className="header-right-mobile-button" type="button" onClick={clickHandler}>
+          <button className="header-right-mobile-button" type="button" onClick={clickHandlerShow}>
             <AiOutlineBars />
           </button>
         </div>
@@ -31,11 +36,13 @@ function Header() {
         </div>
       </div>
       <div id="hidden-mobile-div">
-        <a className="hidden-link" href="#project-container">Portfolio</a>
+        <a className="hidden-link" href="#project-container" onClick={clickHandlerHide}>Portfolio</a>
         <br />
-        <a className="hidden-link" href="#info-container">About</a>
         <br />
-        <a className="hidden-link" href="#Contact">Contact</a>
+        <a className="hidden-link" href="#info-container" onClick={clickHandlerHide}>About</a>
+        <br />
+        <br />
+        <a className="hidden-link" href="#Contact" onClick={clickHandlerHide}>Contact</a>
       </div>
     </div>
   );
