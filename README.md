@@ -1,6 +1,9 @@
 ## Portfolio
 
 > My personal portfolio.
+
+![Screenshot]('./src/assets/images/screenshot.png')
+
 ## Live Version
 
 - [Live Version](https://portfolio-page-drab-three.vercel.app/)
