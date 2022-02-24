@@ -4,22 +4,20 @@
 
 .projectOne {
   background: linear-gradient(#1c1a19dc 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/images/restaurants.png");
+  border-radius: 1%;
 }
 
 .projectTwo {
   background: linear-gradient(#1c1a19dc 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/images/covid-app.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: start;
+  border-radius: 1%;
 }
 
 .projectThree {
   background: linear-gradient(#1c1a19dc 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/images/math-magician.png");
-  background-size: cover;
+  border-radius: 1%;
 }
 
 .projectFour {
   background: linear-gradient(#1c1a19dc 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/images/space.png");
-  background-size: cover;
+  border-radius: 1%;
 }
