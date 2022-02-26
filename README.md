@@ -2,7 +2,7 @@
 
 > My personal portfolio.
 
-![Screenshot]('./src/assets/images/screenshot.png')
+![Screenshot]('./screenshot.png')
 
 ## Live Version
 

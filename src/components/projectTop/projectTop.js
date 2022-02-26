@@ -10,7 +10,7 @@ function ProjectTop() {
         <h2>My Recent Works</h2>
         <div className="head-project row">
           <figure className="col-sm-12 col-lg-7 col-xl-8 align-self-lg-center">
-            <img src={MockProject} className="img-fluid" alt="project" />
+            <img src={MockProject} className="main-project img-fluid" alt="project" />
           </figure>
           <div className="upper-section-project-text col-sm-12 col-lg-5 col-xl-3">
             <h3>Pokemon Trading Cards</h3>
