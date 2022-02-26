@@ -2,7 +2,7 @@
 
 > My personal portfolio.
 
-![Screenshot]('./screenshot.png')
+![Screenshot](./screenshot.png)
 
 ## Live Version
 
