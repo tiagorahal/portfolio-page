@@ -41,14 +41,14 @@ const mockDataTwo = [
     keys: 'three',
   },
   {
-    projectTitle: 'Ravenous Restaurants',
-    projectText: 'A client-side React application, utilizing the Yelp API to search for local businesses.',
+    projectTitle: 'Covid News',
+    projectText: 'a mobile web app the provides daily updates on the global spread of covid-19',
     projectClass: 'projectFour inner-content d-flex flex-column justify-content-end p-1',
     firstButton: 'HTML & CSS',
     secondButton: 'JavaScript',
     thirdButton: 'React',
-    fourthButton: 'Webpack',
-    projectLink: 'https://github.com/tiagorahal/ravenous-react',
+    fourthButton: 'Redux',
+    projectLink: 'https://github.com/tiagorahal/covid-tracker',
     keys: 'four',
   },
 
