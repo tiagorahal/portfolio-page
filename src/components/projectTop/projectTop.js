@@ -13,7 +13,7 @@ function ProjectTop() {
             <img src={CovidProject} className="main-project img-fluid" alt="project" />
           </figure>
           <div className="upper-section-project-text col-sm-12 col-lg-5 col-xl-3">
-            <h3>Pokemon Trading Cards</h3>
+            <h3>Ghibli Catalog</h3>
             <p>{textContent}</p>
             <div className="buttons-div">
               <button className="toolButton" type="button">API</button>
